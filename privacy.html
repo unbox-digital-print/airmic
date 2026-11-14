@@ -5,195 +5,70 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Datenschutzerklärung – AirMic</title>
 <style>
-:root{--blue:#0284c7;--blue-dark:#0369a1;--text:#1f2933;--muted:#61707c;--bg:#f5f8fa;--card:#fff;--line:#dce5ea}
+:root{--blue:#176f9f;--text:#1f2933;--muted:#61707c;--bg:#f5f8fa;--card:#fff;--line:#dce5ea}
 *{box-sizing:border-box} body{margin:0;background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;line-height:1.65}
-main{max-width:900px;margin:0 auto;padding:28px 20px 56px}
-.card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:30px;margin:18px 0;box-shadow:0 8px 24px rgba(30,60,80,.06)}
-h1,h2{color:var(--blue)}h1{margin-top:0;font-size:2rem}h2{margin-top:30px;font-size:1.3rem}
-a{color:var(--blue-dark)}
-.meta{color:var(--muted)}
-.lang{border-top:3px solid #0284c7}
-.back{font-weight:650;text-decoration:none}
-.back:hover{text-decoration:underline}
-ul{padding-left:22px}
-li{margin-bottom:6px}
+main{max-width:900px;margin:0 auto;padding:28px 20px 56px}.card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:30px;margin:18px 0;box-shadow:0 8px 24px rgba(30,60,80,.06)}
+h1,h2{color:var(--blue)}h1{margin-top:0;font-size:2rem}h2{margin-top:30px;font-size:1.3rem}a{color:#147daf}.meta{color:var(--muted)}.lang{border-top:3px solid #3498db}.back{font-weight:650}
 </style>
 </head>
 <body>
 <main>
+<section class="card"><a class="back" href="index.html">← Zur AirMic-Website</a><h1>Datenschutzerklärung für AirMic</h1><p class="meta">Stand: 14. November 2026</p></section>
 <section class="card">
-  <a class="back" href="index.html">← Zur AirMic-Website</a>
-  <h1>Datenschutzerklärung für AirMic</h1>
-  <p class="meta">Stand: 14. November 2026</p>
+<h2>1. Verantwortlicher</h2>
+<p>Verantwortlich für diese App ist:<br>Un!Box - Digital &amp; Print<br>Inhaber: Stefan Kemper<br>Lohstr. 132a, 45359 Essen, Germany<br><a href="mailto:unbox.digital.printing@gmail.com">unbox.digital.printing@gmail.com</a></p>
+<h2>2. Allgemeine Hinweise</h2>
+<p>AirMic ist eine mobile App für Android zur Übertragung von Mikrofon- und Audiodaten in Echtzeit (kabelloses PC-Mikrofon über lokales WLAN/USB sowie lokale Walkie-Talkie- und Freisprech-Funktion zwischen Smartphones im selben Heimnetzwerk). Die App wurde bewusst so entwickelt, dass sie ohne Cloud-Anbindung, ohne Server-Kommunikation und ohne Tracking funktioniert.</p>
+<h2>3. Welche Daten verarbeitet die App?</h2>
+<h3>3.1 Lokal gespeicherte Daten</h3>
+<p>AirMic speichert folgende Informationen ausschließlich lokal auf deinem Gerät, in einem privaten App-Speicherbereich (SharedPreferences):</p>
+<ul><li>Zuletzt verbundene IP-Adressen und Port-Einstellungen für den Windows-PC</li><li>Kopplungsinformationen (Pairing-Status und Sicherheits-Token)</li><li>Audio-Einstellungen (Abtastrate, Audioquelle, Latenzmodi, DSP-Profile wie Noise Gate und Equalizer)</li><li>Intercom-Einstellungen (gewählter Funkkanal 1–8, optionaler lokaler Anzeigename, Kindermodus)</li><li>Deine gewählte Theme- und Spracheinstellung</li></ul>
+<p>Diese Daten verlassen dein Gerät zu keinem Zeitpunkt. Es findet keine Übertragung an den Entwickler, an Server von Drittanbietern oder an Cloud-Dienste statt.</p>
+<h3>3.2 Audio- und Sprachübertragung in Echtzeit</h3>
+<p>Wenn du das Mikrofon aktivierst (Live-Streaming, Push-to-Talk oder Freisprechen), verarbeitet die App das Audiosignal deines Gerätemikrofons in Echtzeit:</p>
+<ul><li><strong>PC-Mikrofonmodus:</strong> Das Audiosignal wird direkt an die AirMic-Empfängeranwendung auf deinem Windows-PC (über lokales WLAN oder USB) gestreamt.</li><li><strong>Walkie-Talkie- / Intercom-Modus:</strong> Das Audiosignal wird an andere Android-Geräte übertragen, die sich im selben lokalen WLAN befinden und denselben Funkkanal gewählt haben.</li></ul>
+<p>Die Audiodaten werden rein flüchtig im Arbeitsspeicher (RAM) verarbeitet und direkt per Netzwerk-Socket übertragen. Es findet keine Aufzeichnung, keine Speicherung und keine Weiterleitung an externe Server oder Dritte statt.</p>
+<h3>3.3 Netzwerkkommunikation</h3>
+<p>Die App kommuniziert ausschließlich in deinem lokalen WLAN-Netzwerk (z. B. mit der IP-Adresse 192.168.x.x) bzw. über direkte USB-Verbindung, um:</p>
+<ul><li>den Audio-Stream an den gekoppelten PC zu übertragen (UDP/TCP),</li><li>Sprachdaten im Walkie-Talkie-Modus im lokalen Heimnetz auszutauschen,</li><li>kompatible AirMic-Geräte im lokalen Netzwerk zu finden (UDP-Broadcast).</li></ul>
+<p>Diese Kommunikation erfolgt über das lokale Netzwerk und nicht über das Internet. Es werden keine Daten an externe Server der Entwickler oder Dritter gesendet.</p>
+<h3>3.4 Keine Werbung, kein Tracking, keine Analyse-Tools</h3>
+<p>AirMic enthält:</p>
+<ul><li>keine Werbe-SDKs,</li><li>keine Analyse- oder Tracking-Bibliotheken (z. B. kein Google Analytics, Firebase Analytics oder vergleichbare Dienste),</li><li>keine Nutzerkonten,</li><li>keine Registrierung.</li></ul>
+<h3>3.5 Berechtigungen</h3>
+<p>Die App benötigt:</p>
+<ul><li><strong>Mikrofon (<code>RECORD_AUDIO</code>):</strong> Zur Aufnahme von Sprache und Audio bei aktiver Übertragung.</li><li><strong>Netzwerkzugriff:</strong> Zur Kommunikation mit dem PC und Geräten im lokalen WLAN.</li><li><strong>Vordergrunddienst:</strong> Zur Anzeige einer dauerhaften Benachrichtigung, während das Mikrofon aktiv ist.</li><li><strong>Kamera (optional):</strong> Ausschließlich zum Scannen des Pairing-QR-Codes vom PC-Bildschirm.</li><li><strong>Bluetooth (optional):</strong> Falls Audio alternativ über Bluetooth übertragen wird.</li></ul>
+<h3>3.6 Zahlungsabwicklung über den Google Play Store</h3>
+<p>Sofern der Erwerb dieser App oder einzelner Zusatzfunktionen kostenpflichtig ist, wird der Kaufprozess über den Google Play Store abgewickelt. Vertragspartner für den Kaufvorgang ist Google Commerce Limited bzw. – für Nutzer im Europäischen Wirtschaftsraum – Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland. Im Rahmen der Zahlungsabwicklung erhebt und verarbeitet Google Zahlungsdaten und Transaktionsdaten (Rechtsgrundlage: Art. 6 Abs. 1 lit. b DSGVO, Vertragserfüllung).</p>
+<p>Der Entwickler dieser App hat zu keinem Zeitpunkt Zugriff auf deine vollständigen Zahlungsdaten (z. B. Kreditkarteninformationen oder Bankverbindungen). Es gelten zusätzlich die <a href="https://payments.google.com/legaldocument?family=0.buyertos&amp;hl=de">Datenschutzhinweise für Google Payments</a> sowie die <a href="https://policies.google.com/privacy?hl=de">allgemeine Datenschutzerklärung von Google</a>.</p>
+<h2>4. Datenweitergabe an Dritte</h2>
+<p>Es findet keine Weitergabe von Daten an Dritte statt, mit Ausnahme der in Abschnitt 3.6 beschriebenen Zahlungsabwicklung über Google (falls zutreffend). Die App selbst verarbeitet keine personenbezogenen Daten im Sinne der DSGVO auf eigenen Servern, da sämtliche gerätebezogenen Daten ausschließlich lokal auf deinem Gerät verbleiben.</p>
+<h2>5. Speicherdauer und Löschung</h2>
+<p>Audioströme werden zu keinem Zeitpunkt gespeichert. Die lokal gespeicherten Daten (Einstellungen, Pairing) bleiben so lange erhalten, bis du:</p>
+<ul><li>die Einstellungen in der App manuell zurücksetzt,</li><li>die App-Daten über die Android-Systemeinstellungen löschst,</li><li>die App deinstallierst.</li></ul>
+<p>Mit der Deinstallation der App werden sämtliche lokal gespeicherten Daten automatisch und vollständig gelöscht. Für Informationen zur Speicherdauer von Zahlungsdaten bei Google gelten die Datenschutzhinweise von Google Payments (siehe Abschnitt 3.6).</p>
+<h2>6. Deine Rechte</h2>
+<p>Da AirMic selbst keine personenbezogenen Daten an den Entwickler übermittelt, bestehen keine Auskunfts-, Berichtigungs- oder Löschungsansprüche gegenüber dem Entwickler bezüglich extern gespeicherter Daten – alle gerätebezogenen Daten befinden sich ausschließlich auf deinem eigenen Gerät und unter deiner eigenen Kontrolle. Für Auskunfts- und Löschungsansprüche bezüglich deiner Zahlungsdaten wende dich direkt an Google (siehe Abschnitt 3.6).</p>
+<h2>7. Kontakt</h2>
+<p>Bei Fragen zum Datenschutz in AirMic kannst du dich wenden an: <a href="mailto:unbox.digital.printing@gmail.com">unbox.digital.printing@gmail.com</a></p>
+<h2>8. Änderungen dieser Datenschutzerklärung</h2>
+<p>Diese Datenschutzerklärung kann bei Weiterentwicklung der App angepasst werden, insbesondere falls zukünftig neue Funktionen mit Datenverarbeitung hinzukommen. Die jeweils aktuelle Version ist über die App und/oder den Play-Store-Eintrag abrufbar.</p>
 </section>
-
-<section class="card">
-  <h2>1. Verantwortlicher</h2>
-  <p>Verantwortlich für diese App ist:<br>
-  <strong>Un!Box - Digital &amp; Print</strong><br>
-  Inhaber: Stefan Kemper<br>
-  Lohstr. 132a, 45359 Essen, Germany<br>
-  E-Mail: <a href="mailto:unbox.digital.printing@gmail.com">unbox.digital.printing@gmail.com</a></p>
-
-  <h2>2. Allgemeine Hinweise</h2>
-  <p>AirMic ist eine mobile Anwendung für Android, die dein Smartphone in ein kabelloses Mikrofon für deinen Windows-PC verwandelt sowie eine lokale Walkie-Talkie- und Freisprech-Funktion (Intercom) zwischen Smartphones im selben Heimnetzwerk bereitstellt. Die App wurde bewusst so konzipiert, dass sie vollständig ohne Cloud-Server, ohne Registrierung, ohne Benutzerkonten und ohne Tracking auskommt.</p>
-
-  <h2>3. Welche Daten verarbeitet die App?</h2>
-
-  <h3>3.1 Lokal gespeicherte Daten</h3>
-  <p>AirMic speichert folgende Einstellungen ausschließlich lokal auf deinem Gerät in einem geschützten Speicherbereich (SharedPreferences):</p>
-  <ul>
-    <li>Zuletzt verbundene IP-Adressen und Port-Konfigurationen des Windows-Empfängers</li>
-    <li>Kopplungsinformationen (Pairing-Status und Sicherheits-Token zur Autorisierung)</li>
-    <li>Audio-Einstellungen (Abtastrate, Audioquelle, Latenzmodi, DSP-Profile wie Rauschunterdrückung und Noise Gate)</li>
-    <li>Intercom-Einstellungen (aktiver Funkkanal 1–8, optionaler Anzeigename im lokalen Funk, Kindermodus-Einstellung)</li>
-    <li>Darstellungseinstellungen (Theme, Sprache)</li>
-  </ul>
-  <p>Diese Konfigurationsdaten verlassen dein Gerät niemals zu Zwecken des Trackings oder der Analyse. Es findet keinerlei Übermittlung an den Entwickler oder an zentrale Cloud-Dienste statt.</p>
-
-  <h3>3.2 Audio- und Sprachübertragung in Echtzeit</h3>
-  <p>Wenn du das Mikrofon aktivierst (Live-Streaming, Push-to-Talk oder Freisprechen), verarbeitet die App das Audiosignal deines Gerätemikrofons in Echtzeit:</p>
-  <ul>
-    <li><strong>PC-Mikrofonmodus:</strong> Das Audiosignal wird direkt an die AirMic-Empfängeranwendung auf deinem Windows-PC (über lokales WLAN oder USB) gestreamt.</li>
-    <li><strong>Walkie-Talkie- / Intercom-Modus:</strong> Das Audiosignal wird an andere Android-Geräte übertragen, die sich im selben lokalen WLAN befinden und denselben Funkkanal gewählt haben.</li>
-  </ul>
-  <p><strong>Wichtig:</strong> Die Audiodaten werden rein flüchtig im Arbeitsspeicher (RAM) kodiert und direkt als Netzwerkpakete übertragen. Es findet <strong>keine Aufzeichnung, keine dauerhafte Speicherung</strong> und keine Übertragung an externe Server oder den Entwickler statt. Sobald du das Mikrofon stummschaltest oder die Übertragung beendest, werden keine Audiodaten mehr verarbeitet.</p>
-
-  <h3>3.3 Netzwerkkommunikation</h3>
-  <p>Die gesamte Datenübertragung findet ausschließlich im <strong>lokalen Netzwerk (WLAN)</strong> bzw. über eine <strong>direkte USB-Verbindung</strong> statt:</p>
-  <ul>
-    <li>Automatische Geräteerkennung über UDP-Broadcast/Multicast (z. B. Auffinden des PCs oder anderer Funkgeräte im Heimnetz).</li>
-    <li>Audio-Streaming über UDP- bzw. TCP-Sockets im lokalen Subnetz (z. B. 192.168.x.x).</li>
-  </ul>
-  <p>Es werden keine Daten über das öffentliche Internet geroutet und keine Verbindungen zu Cloud-Servern aufgebaut.</p>
-
-  <h3>3.4 Keine Werbung, kein Tracking, keine Analyse-Tools</h3>
-  <p>AirMic enthält:</p>
-  <ul>
-    <li>keine Werbe-SDKs oder Werbeeinblendungen,</li>
-    <li>keine Tracking-, Statistik- oder Analyse-Bibliotheken (kein Google Analytics, Firebase, Crashlytics o. Ä.),</li>
-    <li>keine Erstellung von Nutzerprofilen,</li>
-    <li>keine Benutzerkonten und keinen Registrierungszwang.</li>
-  </ul>
-
-  <h3>3.5 Berechtigungen der App</h3>
-  <p>AirMic fordert ausschließlich Berechtigungen an, die für die technische Funktion zwingend erforderlich sind:</p>
-  <ul>
-    <li><strong>Mikrofon (<code>RECORD_AUDIO</code>):</strong> Erforderlich, um den Ton für das PC-Mikrofon oder den Funkbetrieb aufzunehmen. Das Mikrofon wird nur aktiv abgefragt, wenn du die Übertragung selbst startest.</li>
-    <li><strong>Netzwerk (<code>INTERNET</code>, <code>ACCESS_NETWORK_STATE</code>, <code>ACCESS_WIFI_STATE</code>, <code>CHANGE_WIFI_MULTICAST_STATE</code>):</strong> Erforderlich für die Kommunikation mit dem PC und die Geräteerkennung im lokalen WLAN.</li>
-    <li><strong>Vordergrunddienst &amp; Benachrichtigungen (<code>FOREGROUND_SERVICE_MICROPHONE</code>, <code>POST_NOTIFICATIONS</code>):</strong> Zeigt eine dauerhafte Statusbenachrichtigung an, während das Mikrofon im Hintergrund aktiv ist, damit du jederzeit die volle Kontrolle darüber hast, wann Audio übertragen wird.</li>
-    <li><strong>Kamera (<code>CAMERA</code>, optional):</strong> Wird ausschließlich verwendet, um den Pairing-QR-Code auf dem PC-Bildschirm zu scannen. Es werden keine Bilder oder Videos gespeichert oder hochgeladen.</li>
-    <li><strong>Bluetooth (optional):</strong> Nur erforderlich, falls du die Audioübertragung alternativ über Bluetooth statt WLAN nutzen möchtest.</li>
-  </ul>
-
-  <h3>3.6 Zahlungsabwicklung über den Google Play Store</h3>
-  <p>Sofern der Erwerb dieser App oder einzelner Zusatzfunktionen kostenpflichtig ist, wird der Kaufprozess über den Google Play Store abgewickelt. Vertragspartner für den Kaufvorgang ist Google Commerce Limited bzw. – für Nutzer im Europäischen Wirtschaftsraum – Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland. Im Rahmen der Zahlungsabwicklung erhebt und verarbeitet Google Zahlungsdaten und Transaktionsdaten (Rechtsgrundlage: Art. 6 Abs. 1 lit. b DSGVO, Vertragserfüllung).</p>
-  <p>Der Entwickler dieser App hat zu keinem Zeitpunkt Zugriff auf deine vollständigen Zahlungsdaten (z. B. Kreditkarteninformationen oder Bankverbindungen). Es gelten zusätzlich die <a href="https://payments.google.com/legaldocument?family=0.buyertos&amp;hl=de" target="_blank" rel="noopener">Datenschutzhinweise für Google Payments</a> sowie die <a href="https://policies.google.com/privacy?hl=de" target="_blank" rel="noopener">allgemeine Datenschutzerklärung von Google</a>.</p>
-
-  <h2>4. Datenweitergabe an Dritte</h2>
-  <p>Es findet keinerlei Weitergabe von Daten an Dritte statt, mit Ausnahme der in Abschnitt 3.6 genannten Zahlungsabwicklung durch Google (falls zutreffend). Da keine zentralen Server betrieben werden, werden keine personenbezogenen Daten auf externen Systemen gespeichert.</p>
-
-  <h2>5. Speicherdauer und Löschung</h2>
-  <p>Audioströme werden zu keinem Zeitpunkt zwischengespeichert oder aufgezeichnet. Die lokal auf deinem Gerät gespeicherten Einstellungen (Pairing, Audio-Profile) bleiben erhalten, bis du:</p>
-  <ul>
-    <li>die Einstellungen in der App zurücksetzt,</li>
-    <li>die App-Daten über die Android-Systemeinstellungen löschst oder</li>
-    <li>die App deinstallierst (hierbei entfernt Android sämtliche lokalen Daten rückstandslos).</li>
-  </ul>
-
-  <h2>6. Deine Rechte</h2>
-  <p>Da AirMic keinerlei personenbezogene Daten an den Entwickler übermittelt, liegen alle verarbeiteten Daten ausschließlich auf deinen eigenen Geräten (Smartphone / PC). Du hast jederzeit die volle Kontrolle über diese Daten. Für eventuelle Zahlungsdaten im Rahmen des App-Kaufs wende dich bitte direkt an Google (siehe Abschnitt 3.6).</p>
-
-  <h2>7. Kontakt</h2>
-  <p>Bei Fragen zum Datenschutz in AirMic kannst du dich jederzeit wenden an:<br>
-  <a href="mailto:unbox.digital.printing@gmail.com">unbox.digital.printing@gmail.com</a></p>
-
-  <h2>8. Änderungen dieser Datenschutzerklärung</h2>
-  <p>Diese Datenschutzerklärung kann bei Funktionserweiterungen oder geänderten rechtlichen Vorgaben angepasst werden. Die jeweils aktuelle Fassung ist stets über diesen Link sowie in der App abrufbar.</p>
-</section>
-
-<!-- ENGLISCHE VERSION -->
 <section class="card lang" lang="en">
-  <h1>Privacy Policy for AirMic</h1>
-  <p class="meta">Last updated: November 14, 2026</p>
-
-  <h2>1. Controller</h2>
-  <p>Responsible for this app:<br>
-  <strong>Un!Box - Digital &amp; Print</strong><br>
-  Owner: Stefan Kemper<br>
-  Lohstr. 132a, 45359 Essen, Germany<br>
-  Email: <a href="mailto:unbox.digital.printing@gmail.com">unbox.digital.printing@gmail.com</a></p>
-
-  <h2>2. General Information</h2>
-  <p>AirMic is a mobile Android application designed to turn your smartphone into a wireless microphone for your Windows PC, as well as providing a local walkie-talkie and hands-free intercom feature between Android devices on the same home network. The app is intentionally built without cloud servers, user registration, account creation, or tracking.</p>
-
-  <h2>3. Data Processed by the App</h2>
-
-  <h3>3.1 Locally Stored Data</h3>
-  <p>AirMic stores the following settings exclusively on your local device in private storage (SharedPreferences):</p>
-  <ul>
-    <li>Last connected IP addresses and port configurations of the Windows receiver</li>
-    <li>Pairing credentials (connection status and security authorization token)</li>
-    <li>Audio settings (sample rate, audio source, latency modes, DSP profiles such as noise gate and equalizer)</li>
-    <li>Intercom settings (selected channel 1–8, optional local display name, kids mode toggle)</li>
-    <li>Interface preferences (theme, language)</li>
-  </ul>
-  <p>This data never leaves your device and is never transmitted to the developer or third-party cloud servers.</p>
-
-  <h3>3.2 Real-Time Audio &amp; Voice Transmission</h3>
-  <p>When you activate the microphone (live streaming, push-to-talk, or hands-free mode), the app processes your microphone audio in real time:</p>
-  <ul>
-    <li><strong>PC Microphone Mode:</strong> Audio is streamed directly to the AirMic receiver application on your Windows PC via local Wi-Fi or USB.</li>
-    <li><strong>Walkie-Talkie / Intercom Mode:</strong> Audio is transmitted to other Android devices located on the same local Wi-Fi network that are tuned to the same channel.</li>
-  </ul>
-  <p><strong>Important:</strong> Audio data is encoded ephemerally in RAM and sent directly over network sockets. There is <strong>no recording, no persistent storage</strong>, and no transmission to external cloud servers or the developer. Once you mute or stop transmitting, no audio data is processed.</p>
-
-  <h3>3.3 Network Communication</h3>
-  <p>All communication takes place strictly within your <strong>local Wi-Fi network</strong> or via a <strong>direct USB connection</strong>:</p>
-  <ul>
-    <li>Automatic device discovery via UDP broadcast/multicast (finding the PC or other local walkie-talkie peers).</li>
-    <li>Audio streaming over local UDP/TCP sockets (e.g., 192.168.x.x).</li>
-  </ul>
-  <p>No data is routed over the public internet, and no connections to external servers are established.</p>
-
-  <h3>3.4 No Advertising, Tracking, or Analytics</h3>
-  <p>AirMic contains:</p>
-  <ul>
-    <li>no advertising SDKs,</li>
-    <li>no analytics or tracking libraries (no Google Analytics, Firebase, Crashlytics, etc.),</li>
-    <li>no user profiling,</li>
-    <li>no user accounts and no login requirement.</li>
-  </ul>
-
-  <h3>3.5 App Permissions</h3>
-  <p>AirMic requests only the permissions necessary for its technical operation:</p>
-  <ul>
-    <li><strong>Microphone (<code>RECORD_AUDIO</code>):</strong> Required to capture audio for the PC microphone or intercom. Audio is only captured when you actively initiate transmission.</li>
-    <li><strong>Network (<code>INTERNET</code>, <code>ACCESS_NETWORK_STATE</code>, <code>ACCESS_WIFI_STATE</code>, <code>CHANGE_WIFI_MULTICAST_STATE</code>):</strong> Required for local network audio streaming and device discovery.</li>
-    <li><strong>Foreground Service &amp; Notifications (<code>FOREGROUND_SERVICE_MICROPHONE</code>, <code>POST_NOTIFICATIONS</code>):</strong> Displays a persistent notification while streaming in the background, giving you clear visibility and control whenever the microphone is active.</li>
-    <li><strong>Camera (<code>CAMERA</code>, optional):</strong> Used solely to scan the pairing QR code from the PC screen. No photos or videos are captured, stored, or transmitted.</li>
-    <li><strong>Bluetooth (optional):</strong> Only needed if you choose to stream audio over Bluetooth instead of Wi-Fi.</li>
-  </ul>
-
-  <h3>3.6 Payment Processing via Google Play</h3>
-  <p>If the purchase of this app or individual features requires payment, the transaction is handled through the Google Play Store. The contracting party is Google Commerce Limited or Google Ireland Limited. Google processes transaction and payment details (legal basis: Art. 6(1)(b) GDPR). The developer never receives access to full payment details (such as credit card numbers). Google's Privacy Policy applies.</p>
-
-  <h2>4. Sharing with Third Parties</h2>
-  <p>No data is shared with third parties, except for payment processing by Google if applicable. Because no central servers are operated, no personal data is stored externally.</p>
-
-  <h2>5. Retention and Deletion</h2>
-  <p>Audio streams are never recorded or stored. Locally stored preferences remain on your device until you reset settings, clear app data in Android settings, or uninstall the app (which removes all data automatically).</p>
-
-  <h2>6. Your Rights</h2>
-  <p>Because AirMic transmits no personal data to the developer, all data remains under your direct control on your own hardware.</p>
-
-  <h2>7. Contact</h2>
-  <p>For privacy questions regarding AirMic, please contact:<br>
-  <a href="mailto:unbox.digital.printing@gmail.com">unbox.digital.printing@gmail.com</a></p>
-
-  <h2>8. Changes</h2>
-  <p>This privacy policy may be updated as the app evolves. The latest version will always be accessible via this URL and within the app.</p>
+<h1>Privacy Policy for AirMic</h1><p class="meta">Last updated: November 14, 2026</p>
+<h2>1. Controller</h2><p>Responsible for this app:<br>Un!Box - Digital &amp; Print<br>Owner: Stefan Kemper<br>Lohstr. 132a, 45359 Essen, Germany<br><a href="mailto:unbox.digital.printing@gmail.com">unbox.digital.printing@gmail.com</a></p>
+<h2>2. General Information</h2><p>AirMic is an Android app designed for real-time audio and microphone transmission (wireless PC microphone over local Wi-Fi/USB and local walkie-talkie/hands-free intercom between smartphones on the same home network). The app was deliberately designed to work without cloud connectivity, server communication, or tracking.</p>
+<h2>3. Data Processed by the App</h2><h3>3.1 Locally Stored Data</h3><p>AirMic stores the following information exclusively on your device in private app storage (SharedPreferences): IP addresses and port settings of the Windows PC; pairing credentials (pairing status and security token); audio settings (sample rate, source, latency modes, DSP profiles); intercom settings (selected channel 1–8, optional local name, kids mode); selected theme and language. This data never leaves your device.</p>
+<h3>3.2 Real-Time Audio Transmission</h3><p>When you activate the microphone (live streaming, push-to-talk, or hands-free mode), the app processes your microphone audio in real time: PC microphone streaming over local Wi-Fi/USB, or intercom transmission to other Android devices on the same local channel. Audio data is processed ephemerally in RAM and transmitted directly over network sockets. No audio is recorded, stored, or sent to external servers.</p>
+<h3>3.3 Network Communication</h3><p>The app communicates exclusively with devices on your local Wi-Fi network (or direct USB connection) to stream audio to your PC, exchange walkie-talkie voice data, and discover compatible AirMic peers via UDP broadcast. This communication uses the local network, not the internet. No data is sent to external servers operated by the developer or third parties.</p>
+<h3>3.4 No Advertising, Tracking, or Analytics</h3><p>AirMic contains no advertising SDKs, analytics or tracking libraries (e.g. no Google Analytics, Firebase Analytics), user accounts, or registration.</p>
+<h3>3.5 Permissions</h3><p>The app requires microphone access (RECORD_AUDIO) to capture audio during transmission, network access for local Wi-Fi communication, foreground service to maintain a status notification while active, optional camera access solely for QR-code pairing, and optional Bluetooth access.</p>
+<h3>3.6 Payment Processing via Google Play</h3><p>If the purchase of this app or individual add-on features is subject to a fee, the purchase process is handled via Google Play. The contracting party is Google Commerce Limited or Google Ireland Limited. Google collects and processes payment and transaction data (legal basis: Art. 6(1)(b) GDPR). The developer never has access to your complete payment details. Google's Privacy Policy applies.</p>
+<h2>4. Sharing with Third Parties</h2><p>No data is shared with third parties except for payment processing by Google, if applicable. Device-related data remains exclusively on your local device.</p>
+<h2>5. Retention and Deletion</h2><p>Audio streams are never recorded or stored. Locally stored data remains until you reset settings in the app, clear app data in Android settings, or uninstall the app (which automatically deletes all local data).</p>
+<h2>6. Your Rights</h2><p>Because AirMic does not transmit personal data to the developer, device-related data remains under your control on your own device. For access or deletion requests concerning payment data, contact Google directly.</p>
+<h2>7. Contact</h2><p>For privacy-related questions, contact <a href="mailto:unbox.digital.printing@gmail.com">unbox.digital.printing@gmail.com</a>.</p>
+<h2>8. Changes</h2><p>This privacy policy may be updated as the app evolves. The current version is available through the app and/or the Google Play listing.</p>
 </section>
 </main>
-</body>
-</html>
+</body></html>
