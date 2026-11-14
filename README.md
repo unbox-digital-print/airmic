@@ -15,9 +15,9 @@ Die Website enthält:
 
 Die Datenschutzerklärung ist unter folgendem Pfad verfügbar:
 
-[[Datenschutzerklärung]](privacy.html)
+[[Datenschutzerklärung]](https://github.com/unbox-digital-printing/airmic/blob/main/privacy.html)
 
 ## Hinweis
 
-Dieses Repository enthält ausschließlich die statischen Dateien der öffentlichen Website.  
+Dieses Repository enthält ausschließlich die statischen Dateien der öffentlichen Website.
 Der Quellcode der AirMic-Android-App und Windows-Desktop-Anwendung ist nicht Bestandteil dieses Repositories.
