@@ -1,5 +1,4 @@
 'use strict';
-// German source -> English, French, Spanish.
 window.AIRMIC_TRANSLATIONS = {
   "02 / WALKIE-TALKIE": [
     "02 / WALKIE-TALKIE",
@@ -895,5 +894,10 @@ window.AIRMIC_TRANSLATIONS = {
     "In the ZIP: run third-party/VB-CABLE/original/VBCABLE_Setup_x64.exe as administrator. Uninstalling AirMic leaves the installed driver in place because other apps may also use it.",
     "Dans le ZIP : lance third-party/VB-CABLE/original/VBCABLE_Setup_x64.exe en tant qu’administrateur. Désinstaller AirMic conserve le pilote installé, car d’autres applications peuvent l’utiliser.",
     "En el ZIP: ejecuta third-party/VB-CABLE/original/VBCABLE_Setup_x64.exe como administrador. Desinstalar AirMic conserva el controlador instalado, ya que otras apps también pueden usarlo."
+  ],
+  "APK auf Android installieren. Unter Windows die Setup-EXE starten und die Administratorabfrage bestätigen. Standardpfad für alle Benutzer: C:\\Program Files\\AirMic. Die .NET-Laufzeit ist enthalten. Alternativ die Windows-ZIP vollständig entpacken.": [
+    "Install the APK on Android. On Windows, launch the setup EXE and approve administrator access. Default path for all users: C:\\Program Files\\AirMic. The .NET runtime is included. Alternatively, extract the entire Windows ZIP.",
+    "Installe l’APK sur Android. Sur Windows, lance l’EXE et confirme les droits administrateur. Dossier par défaut pour tous les utilisateurs : C:\\Program Files\\AirMic. Le runtime .NET est inclus. Tu peux aussi extraire le ZIP Windows complet.",
+    "Instala el APK en Android. En Windows, inicia el EXE y confirma los permisos de administrador. Ruta predeterminada para todos los usuarios: C:\\Program Files\\AirMic. .NET está incluido. También puedes extraer todo el ZIP de Windows."
   ]
 };
