@@ -22,10 +22,10 @@
       "sha256": "33ea935ca9c1b996018878818c4eea62f16b60ff8a9397e11aaa4b6e15622ade"
     },
     "AirMic.apk": {
-      "bytes": 14092660,
-      "sha256": "61c48d1c066546d48f3e75188310e83027947eae6bfb3ec62d6922a665f9b4a2"
+      "bytes": 14097920,
+      "sha256": "0a3b51ad0ebf8f22ac34fe6c72f53fbe5eda9dd6882ae355317fa71f6d7dc5b1"
     }
   },
-  "androidVersion": "0.3.1",
-  "androidVersionCode": 4
+  "androidVersion": "0.3.2",
+  "androidVersionCode": 5
 }

@@ -915,10 +915,10 @@ window.AIRMIC_TRANSLATIONS = {
     "Agrandir la capture Android",
     "Ampliar captura de Android"
   ],
-  "Original-Screenshot von AirMic Studio für Windows mit DSP-Einstellungen": [
-    "Actual screenshot of AirMic Studio for Windows showing DSP settings",
-    "Capture réelle d’AirMic Studio pour Windows avec les réglages DSP",
-    "Captura real de AirMic Studio para Windows con ajustes DSP"
+  "Original-Screenshot der Startseite von AirMic Studio für Windows": [
+    "Actual screenshot of AirMic Studio for Windows showing the home dashboard",
+    "Capture réelle d’AirMic Studio pour Windows avec son tableau de bord",
+    "Captura real de AirMic Studio para Windows con su panel de inicio"
   ],
   "Original-Screenshot der AirMic-Android-App im Mikrofonmodus": [
     "Actual screenshot of the AirMic Android app in microphone mode",
@@ -930,16 +930,6 @@ window.AIRMIC_TRANSLATIONS = {
     "Vraies interfaces en allemand · Cliquer pour agrandir",
     "Pantallas reales en alemán · Haz clic para ampliar"
   ],
-  "Android 0.3.1 · Windows 0.3 · Ohne Konto": [
-    "Android 0.3.1 · Windows 0.3 · No account",
-    "Android 0.3.1 · Windows 0.3 · Sans compte",
-    "Android 0.3.1 · Windows 0.3 · Sin cuenta"
-  ],
-  "Version 0.3.1 · Android 8 oder neuer": [
-    "Version 0.3.1 · Android 8 or later",
-    "Version 0.3.1 · Android 8 ou plus récent",
-    "Versión 0.3.1 · Android 8 o posterior"
-  ],
   "Wie spare ich Akku bei Nichtbenutzung?": [
     "How can I save battery when not using AirMic?",
     "Comment économiser la batterie quand AirMic n’est pas utilisé ?",
@@ -950,9 +940,19 @@ window.AIRMIC_TRANSLATIONS = {
     "À partir de la version Android 0.3.1, le mode micro PC en sourdine suspend l’enregistrement, le DSP et la transmission audio, et libère les verrous CPU et Wi-Fi haute performance associés. La connexion de contrôle reste disponible pour reprendre. La veille radio active reste une véritable réception qui consomme de l’énergie. Si tu n’utilises pas AirMic, arrête le mode concerné depuis sa notification.",
     "Desde la versión Android 0.3.1, el modo de micrófono de PC silenciado pausa la grabación, el DSP y la transmisión de audio y libera los bloqueos de CPU y Wi-Fi de alto rendimiento asociados. La conexión de control permanece disponible para reanudar. La radio en espera sigue recibiendo audio y consume energía. Si no necesitas AirMic, detén el modo correspondiente desde su notificación."
   ],
-  "ANDROID · VERSION 0.3.1": [
-    "ANDROID · VERSION 0.3.1",
-    "ANDROID · VERSION 0.3.1",
-    "ANDROID · VERSIÓN 0.3.1"
+  "Android 0.3.2 · Windows 0.3 · Ohne Konto": [
+    "Android 0.3.2 · Windows 0.3 · No account",
+    "Android 0.3.2 · Windows 0.3 · Sans compte",
+    "Android 0.3.2 · Windows 0.3 · Sin cuenta"
+  ],
+  "Version 0.3.2 · Android 8 oder neuer": [
+    "Version 0.3.2 · Android 8 or later",
+    "Version 0.3.2 · Android 8 ou plus récent",
+    "Versión 0.3.2 · Android 8 o posterior"
+  ],
+  "ANDROID · VERSION 0.3.2": [
+    "ANDROID · VERSION 0.3.2",
+    "ANDROID · VERSION 0.3.2",
+    "ANDROID · VERSIÓN 0.3.2"
   ]
 };

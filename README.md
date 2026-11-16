@@ -17,9 +17,9 @@ Windows 0.3, Paketrevision 3: .NET 8.0.33 Desktop Runtime x64 und unverändertes
 
 VB-CABLE ist Donationware von VB-Audio (Vincent Burel). Herkunft und Unterstützung: https://vb-audio.com/Cable/ und https://www.vb-cable.com/. Lizenzbedingungen: https://vb-audio.com/Services/licensing.htm. In bestimmten professionellen Verteilungsszenarien verlangt VB-Audio passende Lizenzen. Unterstützung für VB-Audio ist unabhängig von AirMic-Spenden. Keine zusätzlichen Kabel A+B/C+D enthalten.
 
-Android: Version 0.3.1 (versionCode 4), Android 8+, Paket com.unbox_digital_print.airmic. Im stummen PC-Mikrofonmodus und ohne PC-Verbindung pausieren Aufnahme, DSP und Audiodatenversand; die zugehörigen Streaming-Wake-/WiFi-Locks werden freigegeben. Kontroll-Heartbeat und Wiederverbindung bleiben verfügbar. Aktive Funkbereitschaft ist weiterhin echter Empfang und benötigt Energie.
+Android: Version 0.3.2 (versionCode 5), Android 8+, Paket com.unbox_digital_print.airmic. Im stummen PC-Mikrofonmodus und ohne PC-Verbindung pausieren Aufnahme, DSP und Audiodatenversand; die zugehörigen Streaming-Wake-/WiFi-Locks werden freigegeben. Kontroll-Heartbeat und Wiederverbindung bleiben verfügbar. Aktive Funkbereitschaft ist weiterhin echter Empfang und benötigt Energie.
 
-Die Hero-Abbildungen sind unveränderte echte App-Aufnahmen: Windows-DSP-Ansicht am 16.11.2026 aus der installierten App aufgenommen; Android-Mikrofonansicht aus dem vorhandenen Original `PlayStoreAssets/screenshot_1_live.png`. Beide sind zur Vergrößerung mit der Originaldatei verlinkt. Keine QR-Kopplungsdaten werden veröffentlicht.
+Die Hero-Abbildungen sind unveränderte echte App-Aufnahmen: Windows-Startseite (Dashboard) am 16.11.2026 aus der installierten App aufgenommen; Android-Mikrofonansicht aus dem vorhandenen Original `PlayStoreAssets/screenshot_1_live.png`. Beide sind zur Vergrößerung mit der Originaldatei verlinkt. Keine QR-Kopplungsdaten werden veröffentlicht.
 
 Keine externen Schriften, Analytics, Mikrofonzugriffe oder Build-Abhängigkeiten. Animation ist eine Demo. Vorhandene Video- und Google-Verifikationsdateien bleiben erhalten.
 
