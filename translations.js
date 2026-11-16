@@ -550,11 +550,6 @@ window.AIRMIC_TRANSLATIONS = {
     "Aide-nous à continuer.",
     "Ayúdanos a seguir creando."
   ],
-  "Deine Unterstützung kann Entwicklung, Tests und neue Funktionen ermöglichen. Die Spendenlinks werden hier später freigeschaltet.": [
-    "Your support can help fund development, testing and new features. Donation links will be enabled here later.",
-    "Ton soutien peut aider à financer le développement, les tests et de nouvelles fonctionnalités. Les liens de don seront activés ici plus tard.",
-    "Tu apoyo puede ayudar a financiar el desarrollo, las pruebas y nuevas funciones. Los enlaces de donación se activarán aquí más adelante."
-  ],
   "Mit PayPal unterstützen ↗": [
     "Support with PayPal ↗",
     "Soutenir avec PayPal ↗",
@@ -790,11 +785,6 @@ window.AIRMIC_TRANSLATIONS = {
     "Dons et liens externes",
     "Donaciones y enlaces externos"
   ],
-  "Die Spendenbuttons sind derzeit deaktiviert. Es werden keine Zahlungen verarbeitet. Bei externen Links verlässt du diese Webseite; dort gelten die Hinweise der jeweiligen Anbieter. Eine Kontaktaufnahme per E-Mail wird zur Bearbeitung deiner Anfrage verarbeitet.": [
-    "Donation buttons are currently disabled. No payments are processed. External links take you away from this website; the respective provider’s notices apply there. If you contact us by email, your message is processed to handle your request.",
-    "Les boutons de don sont actuellement désactivés. Aucun paiement n’est traité. Les liens externes te font quitter ce site ; les informations des fournisseurs respectifs s’y appliquent. Si tu nous contactes par e-mail, ton message est traité pour répondre à ta demande.",
-    "Los botones de donación están desactivados. No se procesan pagos. Los enlaces externos te llevan fuera de este sitio; allí se aplican los avisos de cada proveedor. Si nos contactas por correo electrónico, tu mensaje se trata para responder a tu solicitud."
-  ],
   "Deine Rechte": [
     "Your rights",
     "Tes droits",
@@ -940,19 +930,29 @@ window.AIRMIC_TRANSLATIONS = {
     "À partir de la version Android 0.3.1, le mode micro PC en sourdine suspend l’enregistrement, le DSP et la transmission audio, et libère les verrous CPU et Wi-Fi haute performance associés. La connexion de contrôle reste disponible pour reprendre. La veille radio active reste une véritable réception qui consomme de l’énergie. Si tu n’utilises pas AirMic, arrête le mode concerné depuis sa notification.",
     "Desde la versión Android 0.3.1, el modo de micrófono de PC silenciado pausa la grabación, el DSP y la transmisión de audio y libera los bloqueos de CPU y Wi-Fi de alto rendimiento asociados. La conexión de control permanece disponible para reanudar. La radio en espera sigue recibiendo audio y consume energía. Si no necesitas AirMic, detén el modo correspondiente desde su notificación."
   ],
-  "Android 0.3.2 · Windows 0.3 · Ohne Konto": [
-    "Android 0.3.2 · Windows 0.3 · No account",
-    "Android 0.3.2 · Windows 0.3 · Sans compte",
-    "Android 0.3.2 · Windows 0.3 · Sin cuenta"
+  "Deine Unterstützung ermöglicht Entwicklung, Tests und neue Projekte. Unterstütze AirMic freiwillig über PayPal oder Buy Me a Coffee. Danke!": [
+    "Your support makes development, testing and new projects possible. Support AirMic voluntarily through PayPal or Buy Me a Coffee. Thank you!",
+    "Ton soutien permet le développement, les tests et de nouveaux projets. Soutiens AirMic librement via PayPal ou Buy Me a Coffee. Merci !",
+    "Tu apoyo hace posible el desarrollo, las pruebas y nuevos proyectos. Apoya AirMic de forma voluntaria a través de PayPal o Buy Me a Coffee. ¡Gracias!"
   ],
-  "Version 0.3.2 · Android 8 oder neuer": [
-    "Version 0.3.2 · Android 8 or later",
-    "Version 0.3.2 · Android 8 ou plus récent",
-    "Versión 0.3.2 · Android 8 o posterior"
+  "Die Unterstützungsbuttons öffnen PayPal oder Buy Me a Coffee erst beim Anklicken. Es sind keine Zahlungswidgets eingebettet; Button-Grafiken werden lokal geladen. Zahlungen werden ausschließlich beim jeweiligen Anbieter abgewickelt. Dort gelten dessen Datenschutzbestimmungen. Der PayPal-Link verwendet unbox.digital.printing@gmail.com als Empfängeradresse. Eine Kontaktaufnahme per E-Mail wird zur Bearbeitung deiner Anfrage verarbeitet.": [
+    "The support buttons open PayPal or Buy Me a Coffee only when clicked. No payment widgets are embedded; button images are loaded locally. Payments are processed exclusively by the respective provider under its privacy policy. The PayPal link uses unbox.digital.printing@gmail.com as the recipient address. Email enquiries are processed to respond to your request.",
+    "Les boutons de soutien ouvrent PayPal ou Buy Me a Coffee uniquement après un clic. Aucun widget de paiement n’est intégré ; les images des boutons sont chargées localement. Les paiements sont traités exclusivement par le prestataire concerné selon sa politique de confidentialité. Le lien PayPal utilise unbox.digital.printing@gmail.com comme adresse du bénéficiaire. Les demandes par e-mail sont traitées pour y répondre.",
+    "Los botones de apoyo abren PayPal o Buy Me a Coffee solo al hacer clic. No se integran widgets de pago; las imágenes de los botones se cargan localmente. Los pagos los procesa exclusivamente el proveedor correspondiente según su política de privacidad. El enlace de PayPal utiliza unbox.digital.printing@gmail.com como dirección del destinatario. Las consultas por correo se procesan para responder a tu solicitud."
   ],
-  "ANDROID · VERSION 0.3.2": [
-    "ANDROID · VERSION 0.3.2",
-    "ANDROID · VERSION 0.3.2",
-    "ANDROID · VERSIÓN 0.3.2"
+  "Android 0.3.3 · Windows 0.3 · Ohne Konto": [
+    "Android 0.3.3 · Windows 0.3 · No account",
+    "Android 0.3.3 · Windows 0.3 · Sans compte",
+    "Android 0.3.3 · Windows 0.3 · Sin cuenta"
+  ],
+  "Version 0.3.3 · Android 8 oder neuer": [
+    "Version 0.3.3 · Android 8 or later",
+    "Version 0.3.3 · Android 8 ou plus récent",
+    "Versión 0.3.3 · Android 8 o posterior"
+  ],
+  "ANDROID · VERSION 0.3.3": [
+    "ANDROID · VERSION 0.3.3",
+    "ANDROID · VERSION 0.3.3",
+    "ANDROID · VERSIÓN 0.3.3"
   ]
 };
