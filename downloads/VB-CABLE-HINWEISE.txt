@@ -17,6 +17,8 @@ Bei der Deinstallation von AirMic bleibt ein installierter VB-CABLE-Treiber erha
 
 AirMic ist derzeit nicht digital signiert. Das Original-VB-Audio-Setup und der Treiber behalten ihre Herstellersignaturen.
 
+Texte einsprechen und im WLAN kommunizieren: Für Texteingabe per Smartphone in Windows-Anwendungen und Gespräche zwischen Android-Smartphones ist kein zusätzlicher Audiotreiber nötig. Das Setup startet VB-CABLE nur bei der ausdrücklichen Auswahl „Zusätzlich als Windows-Mikrofon nutzen“, wenn noch kein funktionsfähiges CABLE-Gerätepaar verfügbar ist. Das gilt für die Audio-Nutzung in Discord, Teams, OBS und Spielen. Die Funkfunktion läuft in der Android-App. Der Treiber kann später über das AirMic-Startmenü nachinstalliert werden.
+
 
 AirMic 0.3 – Windows bundle
 
@@ -36,3 +38,5 @@ AirMic is installed for all users under C:\Program Files\AirMic. Setup requires 
 Uninstalling AirMic leaves an installed VB-CABLE driver in place, as other applications may use it. The original installer and untouched ZIP are in the AirMic folder under third-party\VB-CABLE.
 
 AirMic is currently unsigned. The original VB-Audio setup and driver retain their vendor signatures.
+
+Enter text by voice and talk over local Wi-Fi: no additional audio driver is needed for entering text into Windows applications through the smartphone or for conversations between Android smartphones. Setup launches VB-CABLE only after explicitly choosing the additional Windows microphone, if a working CABLE device pair is not already available. This is for audio input in Discord, Teams, OBS and games. Smartphone conversations use the Android app. The driver can be installed later from the AirMic Start menu.

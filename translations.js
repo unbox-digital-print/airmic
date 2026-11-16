@@ -260,11 +260,6 @@ window.AIRMIC_TRANSLATIONS = {
     "Une installation connectée.",
     "Un equipo conectado."
   ],
-  "Für das PC-Mikrofon installierst du AirMic auf beiden Geräten. Für Walkie-Talkie und Freisprechen genügt die Android-App auf den beteiligten Smartphones.": [
-    "For a PC microphone, install AirMic on both devices. For walkie-talkie and hands-free intercom, only the Android app is needed on each smartphone.",
-    "Pour le micro PC, installe AirMic sur les deux appareils. Pour le talkie-walkie et l’interphone mains libres, l’application Android suffit sur chaque smartphone.",
-    "Para usarlo como micrófono de PC, instala AirMic en ambos dispositivos. Para walkie-talkie e intercomunicación manos libres solo necesitas la app Android en cada smartphone."
-  ],
   "AirMic für deinen PC.": [
     "AirMic for your PC.",
     "AirMic pour ton PC.",
@@ -489,11 +484,6 @@ window.AIRMIC_TRANSLATIONS = {
     "Do I need the internet or an account?",
     "Faut-il Internet ou un compte ?",
     "¿Necesito Internet o una cuenta?"
-  ],
-  "Für die lokale Verbindung brauchst du kein Konto und keinen Cloud-Audiodienst. Die Downloads benötigen Internet. Wenn du die optionale lokale Diktierfunktion nutzt, muss ihr Sprachmodell zunächst heruntergeladen werden. Die Erkennung läuft danach lokal auf dem PC.": [
-    "Local connections need no account or cloud audio service. Downloads need internet access. If you use optional local dictation, its speech model must first be downloaded. Recognition then runs locally on the PC.",
-    "La connexion locale ne nécessite ni compte ni service audio cloud. Les téléchargements nécessitent Internet. Si tu utilises la dictée locale optionnelle, son modèle vocal doit d’abord être téléchargé. La reconnaissance s’effectue ensuite localement sur le PC.",
-    "Las conexiones locales no necesitan cuenta ni servicio de audio en la nube. Las descargas requieren Internet. Para usar el dictado local opcional, primero debes descargar su modelo de voz. Después, el reconocimiento se ejecuta localmente en el PC."
   ],
   "Ist die Verbindung verschlüsselt?": [
     "Is the connection encrypted?",
@@ -775,11 +765,6 @@ window.AIRMIC_TRANSLATIONS = {
     "Les paramètres de connexion, les données d’appairage, les appareils récemment utilisés et les noms que tu attribues sont conservés localement sur tes appareils. La connexion appairée Android–Windows est chiffrée. La radio entre smartphones est un mode local ouvert sans chiffrement de groupe ; utilise un réseau de confiance. Garde privées les données d’appairage du QR code.",
     "La configuración de conexión, los datos de emparejamiento, los dispositivos recientes y los nombres que asignas se guardan localmente en tus dispositivos. La conexión emparejada Android–Windows está cifrada. La radio entre smartphones es un modo local abierto sin cifrado de grupo; usa una red de confianza. Mantén privados los datos del QR de emparejamiento."
   ],
-  "Für die optionale lokale Diktierfunktion kann beim ersten Einrichten ein Sprachmodell aus dem Internet geladen werden. Dabei erhält der jeweilige Downloadanbieter technisch notwendige Verbindungsdaten. Die anschließende Spracherkennung läuft auf dem Windows-PC.": [
-    "When setting up optional local dictation, a speech model may be downloaded from the internet. The download provider receives the connection data technically needed for that request. Subsequent speech recognition runs on the Windows PC.",
-    "Lors de la configuration de la dictée locale optionnelle, un modèle vocal peut être téléchargé depuis Internet. Le fournisseur du téléchargement reçoit les données de connexion techniquement nécessaires. La reconnaissance vocale s’effectue ensuite sur le PC Windows.",
-    "Al configurar el dictado local opcional, puede descargarse un modelo de voz de Internet. El proveedor de la descarga recibe los datos de conexión técnicamente necesarios. Después, el reconocimiento de voz se ejecuta en el PC con Windows."
-  ],
   "Spenden und externe Links": [
     "Donations and external links",
     "Dons et liens externes",
@@ -795,11 +780,6 @@ window.AIRMIC_TRANSLATIONS = {
     "Sous réserve des conditions légales applicables, tu disposes des droits d’accès, de rectification, d’effacement, de limitation du traitement, de portabilité des données et d’opposition. Tu peux également déposer une réclamation auprès d’une autorité de contrôle de la protection des données. Pour toute question, utilise l’adresse de contact indiquée ci-dessus.",
     "Conforme a los requisitos legales aplicables, tienes derecho de acceso, rectificación, supresión, limitación del tratamiento, portabilidad de datos y oposición. También puedes presentar una reclamación ante una autoridad de protección de datos. Para cualquier consulta, usa la dirección de contacto indicada arriba."
   ],
-  "Setup mit .NET-Laufzeit und unverändertem VB-CABLE-Paket. Kein separater Treiber-Download nötig.": [
-    "Setup includes the .NET runtime and original, unmodified VB-CABLE package. No separate driver download needed.",
-    "L’installation inclut le runtime .NET et le paquet original VB-CABLE non modifié. Aucun téléchargement séparé du pilote nécessaire.",
-    "El instalador incluye .NET y el paquete original de VB-CABLE sin modificar. No necesitas descargar el controlador por separado."
-  ],
   "Windows-Setup herunterladen ↓": [
     "Download Windows setup ↓",
     "Télécharger l’installation Windows ↓",
@@ -810,11 +790,6 @@ window.AIRMIC_TRANSLATIONS = {
     "VB-CABLE est-il maintenant inclus ?",
     "¿Está incluido ahora VB-CABLE?"
   ],
-  "Ja. Windows-Setup und Windows-ZIP enthalten das unveränderte Standard-VB-CABLE-Paket von VB-Audio. Die EXE führt bei Bedarf zum Original-Installer; in der ZIP liegt er unter third-party/VB-CABLE/original. VB-CABLE ist Donationware. Unterstütze VB-Audio über die Herstellerseite oder erwirb dort eine Lizenz. Für Smartphone-Funk ist der Treiber nicht nötig.": [
-    "Yes. Both the Windows setup and ZIP include the unmodified standard VB-CABLE package by VB-Audio. The EXE offers the original driver installer when needed; the ZIP contains it under third-party/VB-CABLE/original. VB-CABLE is donationware. Support VB-Audio through its website or purchase a licence there. Smartphone radio needs no driver.",
-    "Oui. L’installateur Windows et le ZIP contiennent le paquet standard VB-CABLE non modifié de VB-Audio. L’EXE propose l’installateur original si nécessaire ; il se trouve dans third-party/VB-CABLE/original dans le ZIP. VB-CABLE est un donationware. Soutiens VB-Audio sur son site ou achète une licence. La radio entre smartphones n’a pas besoin de pilote.",
-    "Sí. El instalador y el ZIP de Windows incluyen el paquete estándar de VB-CABLE de VB-Audio sin modificar. El EXE ofrece el instalador original cuando hace falta; en el ZIP está en third-party/VB-CABLE/original. VB-CABLE es donationware. Apoya a VB-Audio en su web o compra una licencia. La radio entre smartphones no necesita controlador."
-  ],
   "ZIP als Alternative herunterladen ↗": [
     "Download ZIP instead ↗",
     "Télécharger plutôt le ZIP ↗",
@@ -824,11 +799,6 @@ window.AIRMIC_TRANSLATIONS = {
     "VB-CABLE by VB-Audio is included.",
     "VB-CABLE de VB-Audio est inclus.",
     "VB-CABLE de VB-Audio está incluido."
-  ],
-  "Wir liefern das unveränderte Standardpaket mit. Herkunft, Herstellerdateien und Lizenzhinweise bleiben erhalten.": [
-    "We include the unmodified standard package, retaining its origin, vendor files and licence notices.",
-    "Nous incluons le paquet standard non modifié en conservant son origine, les fichiers de l’éditeur et les avis de licence.",
-    "Incluimos el paquete estándar sin modificar y conservamos su origen, los archivos del fabricante y los avisos de licencia."
   ],
   "VB-CABLE ist Donationware. Beiträge sind willkommen. Unterstütze VB-Audio über die Herstellerseite oder erwirb dort eine Lizenz. Das ist unabhängig von einer Unterstützung für AirMic.": [
     "VB-CABLE is donationware. Contributions are welcome. Support VB-Audio through its website or purchase a licence there. This is separate from supporting AirMic.",
@@ -869,11 +839,6 @@ window.AIRMIC_TRANSLATIONS = {
     "Set up VB-CABLE if needed.",
     "Configure VB-CABLE si nécessaire.",
     "Configura VB-CABLE si hace falta."
-  ],
-  "Fehlt der Treiber, bietet das Setup den unveränderten VB-Audio-Installer an. Bestätige dessen Administratorabfrage und folge dem Original-Installer. Danach Windows neu starten. Ein erkannter vorhandener Treiber wird nicht automatisch neu installiert.": [
-    "If the driver is missing, setup offers the unmodified VB-Audio installer. Approve its administrator prompt and follow the original installer. Then restart Windows. An existing detected driver is not automatically reinstalled.",
-    "Si le pilote manque, l’assistant propose l’installateur VB-Audio non modifié. Confirme sa demande de droits administrateur et suis l’installateur original. Redémarre ensuite Windows. Un pilote existant détecté n’est pas réinstallé automatiquement.",
-    "Si falta el controlador, el asistente ofrece el instalador de VB-Audio sin modificar. Confirma su solicitud de permisos de administrador y sigue el instalador original. Después reinicia Windows. Un controlador existente detectado no se reinstala automáticamente."
   ],
   "Die Setup-EXE ist derzeit nicht digital signiert. Der Original-VB-Audio-Installer behält seine Herstellersignatur.": [
     "The setup EXE is currently unsigned. The original VB-Audio installer retains its vendor signature.",
@@ -960,9 +925,104 @@ window.AIRMIC_TRANSLATIONS = {
     "VB-CABLE manque après une réinstallation : que faire ?",
     "VB-CABLE no aparece tras reinstalar: ¿qué hago?"
   ],
-  "Nach dem Entfernen von VB-CABLE Windows zuerst neu starten. Dann den Original-VB-Audio-Installer aus dem AirMic-Startmenü öffnen, den Treiber installieren und erneut neu starten. Danach müssen CABLE Input (Wiedergabe) und CABLE Output (Aufnahme) verfügbar sein. Das AirMic-Diktat verarbeitet Smartphone-Audio direkt; für ein Mikrofon in Discord, Teams oder OBS ist dagegen CABLE Output nötig. AirMic selbst zu deinstallieren entfernt den gemeinsam nutzbaren Treiber nicht.": [
-    "After removing VB-CABLE, restart Windows first. Then open the original VB-Audio installer from the AirMic Start menu, install the driver and restart again. CABLE Input (playback) and CABLE Output (recording) should then be available. AirMic dictation processes smartphone audio directly; using it as a microphone in Discord, Teams or OBS requires CABLE Output. Uninstalling AirMic itself does not remove the shared driver.",
-    "Après avoir supprimé VB-CABLE, redémarre d’abord Windows. Ouvre ensuite l’installateur original VB-Audio depuis le menu Démarrer AirMic, installe le pilote et redémarre à nouveau. CABLE Input (lecture) et CABLE Output (enregistrement) doivent alors être disponibles. La dictée AirMic traite directement le son du smartphone ; pour l’utiliser comme micro dans Discord, Teams ou OBS, CABLE Output est nécessaire. Désinstaller AirMic ne supprime pas le pilote partagé.",
-    "Tras eliminar VB-CABLE, reinicia primero Windows. Después abre el instalador original de VB-Audio desde el menú Inicio de AirMic, instala el controlador y vuelve a reiniciar. Deben aparecer CABLE Input (reproducción) y CABLE Output (grabación). El dictado de AirMic procesa directamente el audio del móvil; para usarlo como micrófono en Discord, Teams u OBS hace falta CABLE Output. Desinstalar AirMic no elimina el controlador compartido."
+  "Texte einsprechen und im WLAN kommunizieren: ohne zusätzlichen Audiotreiber. VB-CABLE ist optional enthalten, wenn du das Smartphone zusätzlich als Windows-Mikrofon nutzen möchtest.": [
+    "Enter text by voice and talk over local Wi-Fi without an additional audio driver. VB-CABLE is optionally included if you also want to use the smartphone as a Windows microphone.",
+    "Saisis du texte à la voix et communique en Wi-Fi local sans pilote audio supplémentaire. VB-CABLE est inclus en option pour utiliser aussi le smartphone comme micro Windows.",
+    "Introduce texto por voz y comunícate por Wi-Fi local sin otro controlador de audio. VB-CABLE se incluye como opción si también quieres usar el móvil como micrófono de Windows."
+  ],
+  "Das unveränderte Standardpaket ist für die optionale Nutzung als Windows-Mikrofon enthalten. Zum Einsprechen von Text in Anwendungen und für Gespräche zwischen Android-Smartphones im lokalen WLAN brauchst du es nicht. Herkunft, Herstellerdateien und Lizenzhinweise bleiben erhalten.": [
+    "The unmodified standard package is included for optional use as a Windows microphone. Entering text into applications by voice and conversations between Android smartphones over local Wi-Fi do not require it. Origin, vendor files and licence notices are retained.",
+    "Le paquet standard non modifié est inclus pour l’utilisation facultative comme micro Windows. Il n’est pas nécessaire pour saisir du texte à la voix dans les applications ni pour les conversations entre smartphones Android en Wi-Fi local. L’origine, les fichiers de l’éditeur et les avis de licence sont conservés.",
+    "El paquete estándar sin modificar se incluye para el uso opcional como micrófono de Windows. No hace falta para introducir texto por voz en aplicaciones ni para conversaciones entre móviles Android por Wi-Fi local. Se conservan el origen, los archivos del fabricante y los avisos de licencia."
+  ],
+  "Wähle im Setup „Texte einsprechen und im WLAN kommunizieren“ oder „Zusätzlich als Windows-Mikrofon nutzen“. Nur die zweite Auswahl bietet bei Bedarf den Original-VB-CABLE-Installer an. Dafür sind Administratorrechte und anschließend ein Windows-Neustart nötig. Ein funktionsfähiges CABLE-Gerätepaar wird weiterverwendet. Eine spätere Installation ist über das AirMic-Startmenü möglich.": [
+    "In setup, choose entering text by voice and talking over local Wi-Fi, or also using the smartphone as a Windows microphone. Only the second choice offers the original VB-CABLE installer when needed. This requires administrator permission and a Windows restart afterwards. An existing working CABLE device pair is reused. You can install the driver later from the AirMic Start menu.",
+    "Dans l’assistant, choisis la saisie de texte à la voix et la communication en Wi-Fi, ou l’utilisation supplémentaire comme micro Windows. Seul le second choix propose l’installateur original VB-CABLE si nécessaire. Il nécessite les droits administrateur puis un redémarrage de Windows. Un couple CABLE fonctionnel est réutilisé. Le pilote peut être installé plus tard depuis le menu Démarrer AirMic.",
+    "En el instalador, elige introducir texto por voz y comunicarte por Wi-Fi, o usar además el móvil como micrófono Windows. Solo la segunda opción ofrece el instalador original de VB-CABLE si hace falta. Requiere permisos de administrador y reiniciar Windows después. Se reutiliza un par CABLE operativo existente. El controlador se puede instalar después desde el menú Inicio de AirMic."
+  ],
+  "Wenn du das zusätzliche Windows-Mikrofon nutzen möchtest: Nach dem Entfernen von VB-CABLE Windows zuerst neu starten. Dann den Original-VB-Audio-Installer aus dem AirMic-Startmenü öffnen, den Treiber installieren und erneut neu starten. Danach müssen CABLE Input (Wiedergabe) und CABLE Output (Aufnahme) verfügbar sein. Die Texteingabe per Sprache verarbeitet Smartphone-Audio direkt; für ein Mikrofon in Discord, Teams oder OBS ist dagegen CABLE Output nötig. AirMic selbst zu deinstallieren entfernt den gemeinsam nutzbaren Treiber nicht.": [
+    "If you need the optional Windows microphone: after removing VB-CABLE, restart Windows first. Then open the original VB-Audio installer from the AirMic Start menu, install the driver and restart again. CABLE Input (playback) and CABLE Output (recording) should be available. Entering text by voice processes smartphone audio directly; using it as an audio microphone in Discord, Teams or OBS requires CABLE Output. Uninstalling AirMic does not remove the shared driver.",
+    "Si tu as besoin du micro Windows facultatif : après avoir supprimé VB-CABLE, redémarre d’abord Windows. Lance l’installateur original depuis le menu Démarrer AirMic, installe le pilote et redémarre à nouveau. CABLE Input (lecture) et CABLE Output (enregistrement) doivent être disponibles. La saisie vocale traite directement le son du smartphone ; pour un micro audio dans Discord, Teams ou OBS, CABLE Output est nécessaire. Désinstaller AirMic ne supprime pas le pilote partagé.",
+    "Si necesitas el micrófono opcional de Windows: tras eliminar VB-CABLE, reinicia Windows primero. Abre el instalador original desde el menú Inicio de AirMic, instala el controlador y reinicia de nuevo. Deben aparecer CABLE Input y CABLE Output. La entrada de texto por voz procesa directamente el audio del móvil; para usarlo como micrófono de audio en Discord, Teams u OBS se necesita CABLE Output. Desinstalar AirMic no elimina el controlador compartido."
+  ],
+  "Für die lokale Verbindung brauchst du kein Konto und keinen Cloud-Audiodienst. Die Downloads benötigen Internet. Wenn du die lokale Texteingabe per Sprache nutzt, muss ihr Sprachmodell zunächst heruntergeladen werden. Die Erkennung läuft danach lokal auf dem PC.": [
+    "You do not need an account or a cloud audio service for the local connection. Downloads require internet access. To enter text into applications by speaking, the speech model must first be downloaded. Recognition then runs locally on the PC.",
+    "La connexion locale ne nécessite ni compte ni service audio cloud. Les téléchargements nécessitent Internet. Pour saisir du texte à la voix dans les applications, le modèle vocal doit d’abord être téléchargé. La reconnaissance fonctionne ensuite localement sur le PC.",
+    "La conexión local no requiere cuenta ni servicio de audio en la nube. Las descargas necesitan Internet. Para introducir texto por voz en aplicaciones hay que descargar primero el modelo de voz. Después, el reconocimiento se ejecuta localmente en el PC."
+  ],
+  "Ja, als optionales Zusatzpaket für das Smartphone als Windows-Mikrofon. Zum Einsprechen von Text in Anwendungen und für Gespräche zwischen Android-Smartphones brauchst du VB-CABLE nicht. Das Setup startet den Original-Installer nur nach entsprechender Auswahl und wenn kein funktionsfähiges CABLE-Gerätepaar verfügbar ist. VB-CABLE ist Donationware von VB-Audio; Herkunft und Lizenzhinweise bleiben erhalten.": [
+    "Yes, as an optional add-on for using the smartphone as a Windows microphone. Entering text into applications by voice and conversations between Android smartphones do not require VB-CABLE. Setup starts the original installer only after the corresponding choice and if a working CABLE device pair is unavailable. VB-CABLE is donationware by VB-Audio; attribution and licence notices are retained.",
+    "Oui, comme complément facultatif pour utiliser le smartphone comme micro Windows. La saisie de texte à la voix dans les applications et les conversations entre smartphones Android ne nécessitent pas VB-CABLE. L’assistant lance l’installateur original uniquement après ce choix et en l’absence de couple CABLE fonctionnel. VB-CABLE est un donationware de VB-Audio ; l’origine et les avis de licence sont conservés.",
+    "Sí, como complemento opcional para usar el móvil como micrófono de Windows. Introducir texto por voz en aplicaciones y las conversaciones entre móviles Android no requieren VB-CABLE. El instalador original se inicia solo tras elegir esa opción y si no existe un par CABLE operativo. VB-CABLE es donationware de VB-Audio; se mantienen el origen y los avisos de licencia."
+  ],
+  "04 / TEXT PER SPRACHE": [
+    "04 / SPEECH TO TEXT",
+    "04 / SAISIE VOCALE",
+    "04 / TEXTO POR VOZ"
+  ],
+  "Sprich. Der Text erscheint.": [
+    "Speak. See your words appear.",
+    "Parle. Le texte apparaît.",
+    "Habla. El texto aparece."
+  ],
+  "Sprich mit dem Smartphone und gib Text direkt in das aktive Textfeld einer Windows-Anwendung ein. Die Spracherkennung läuft nach dem ersten Modell-Download lokal auf dem PC. Dafür brauchst du kein VB-CABLE.": [
+    "Speak through your smartphone to enter text directly into the active text field of a Windows application. After the initial model download, speech recognition runs locally on the PC. No VB-CABLE required.",
+    "Parle depuis ton smartphone pour saisir du texte directement dans le champ actif d’une application Windows. Après le premier téléchargement du modèle, la reconnaissance vocale fonctionne localement sur le PC. Aucun VB-CABLE nécessaire.",
+    "Habla desde el móvil para introducir texto directamente en el campo activo de una aplicación Windows. Tras descargar el modelo por primera vez, el reconocimiento de voz se ejecuta localmente en el PC. No necesitas VB-CABLE."
+  ],
+  "Texte einsprechen und im WLAN kommunizieren: Verwende Smartphone und Windows-App für Texteingabe per Sprache. Gespräche im lokalen WLAN laufen direkt zwischen Android-Smartphones. Beide Funktionen benötigen keinen zusätzlichen Audiotreiber.": [
+    "Enter text by voice and talk over local Wi-Fi: use your smartphone and the Windows app for text entry by speaking. Local Wi-Fi conversations run directly between Android smartphones. Neither feature requires an additional audio driver.",
+    "Saisis du texte à la voix et communique en Wi-Fi local : utilise ton smartphone et l’application Windows pour la saisie vocale. Les conversations en Wi-Fi local se font directement entre smartphones Android. Ces deux fonctions ne nécessitent pas de pilote audio supplémentaire.",
+    "Introduce texto por voz y comunícate por Wi-Fi local: usa el móvil y la app Windows para escribir hablando. Las conversaciones por Wi-Fi local se realizan directamente entre móviles Android. Ninguna de estas funciones requiere otro controlador de audio."
+  ],
+  "Für die lokale Texteingabe per Sprache kann beim ersten Einrichten ein Sprachmodell aus dem Internet geladen werden. Dabei erhält der jeweilige Downloadanbieter technisch notwendige Verbindungsdaten. Die anschließende Spracherkennung läuft auf dem Windows-PC.": [
+    "For local speech-to-text input, a speech model may be downloaded from the internet during initial setup. The download provider receives the connection data technically necessary for the download. Subsequent speech recognition runs on the Windows PC.",
+    "Pour la saisie vocale locale, un modèle vocal peut être téléchargé depuis Internet lors de la première configuration. Le fournisseur du téléchargement reçoit les données de connexion techniquement nécessaires. La reconnaissance vocale fonctionne ensuite sur le PC Windows.",
+    "Para la entrada local de texto por voz, se puede descargar un modelo de voz de Internet durante la configuración inicial. El proveedor de descarga recibe los datos de conexión técnicamente necesarios. Después, el reconocimiento de voz se ejecuta en el PC Windows."
+  ],
+  "Texte einsprechen": [
+    "Enter text by voice",
+    "Saisir du texte à la voix",
+    "Introducir texto por voz"
+  ],
+  "Ohne zusätzlichen Audiotreiber starten.": [
+    "Start without an additional audio driver.",
+    "Démarrer sans pilote audio supplémentaire.",
+    "Empezar sin otro controlador de audio."
+  ],
+  "Installiere die Android-App und AirMic Studio für Windows. Wähle im Setup „Texte einsprechen und im WLAN kommunizieren“. VB-CABLE wird dafür nicht installiert.": [
+    "Install the Android app and AirMic Studio for Windows. In setup, choose entering text by voice and talking over local Wi-Fi. VB-CABLE is not installed for this.",
+    "Installe l’application Android et AirMic Studio pour Windows. Dans l’assistant, choisis la saisie de texte à la voix et la communication en Wi-Fi. VB-CABLE n’est pas installé pour cet usage.",
+    "Instala la app Android y AirMic Studio para Windows. En el instalador, elige introducir texto por voz y comunicarte por Wi-Fi. No se instala VB-CABLE para este uso."
+  ],
+  "Smartphone mit dem PC verbinden.": [
+    "Connect the smartphone to the PC.",
+    "Connecter le smartphone au PC.",
+    "Conectar el móvil al PC."
+  ],
+  "Bringe beide Geräte ins gleiche WLAN und scanne in der Android-App den QR-Code aus AirMic Studio.": [
+    "Connect both devices to the same Wi-Fi network and scan the AirMic Studio QR code with the Android app.",
+    "Connecte les deux appareils au même Wi-Fi et scanne le code QR d’AirMic Studio avec l’application Android.",
+    "Conecta ambos dispositivos a la misma red Wi-Fi y escanea el código QR de AirMic Studio con la app Android."
+  ],
+  "Texteingabe per Sprache aktivieren.": [
+    "Enable text input by voice.",
+    "Activer la saisie de texte à la voix.",
+    "Activar la entrada de texto por voz."
+  ],
+  "Aktiviere „Texteingabe“ in AirMic Studio und warte bei der ersten Einrichtung auf den Download des Sprachmodells. Die Erkennung läuft anschließend lokal auf dem PC.": [
+    "Enable text entry in AirMic Studio. During initial setup, wait for the speech model to download. Recognition then runs locally on the PC.",
+    "Active la saisie de texte dans AirMic Studio. Lors de la première configuration, attends le téléchargement du modèle vocal. La reconnaissance fonctionne ensuite localement sur le PC.",
+    "Activa la entrada de texto en AirMic Studio. Durante la configuración inicial, espera a que se descargue el modelo de voz. Después, el reconocimiento se ejecuta localmente en el PC."
+  ],
+  "Textfeld auswählen und sprechen.": [
+    "Select a text field and speak.",
+    "Choisir un champ de texte et parler.",
+    "Seleccionar un campo de texto y hablar."
+  ],
+  "Klicke in das gewünschte Textfeld deiner Anwendung, aktiviere das Smartphone-Mikrofon und sprich. AirMic schreibt den erkannten Text in das aktive Fenster.": [
+    "Click the desired text field in your application, activate the smartphone microphone and speak. AirMic writes the recognized text into the active window.",
+    "Clique dans le champ voulu de ton application, active le micro du smartphone et parle. AirMic écrit le texte reconnu dans la fenêtre active.",
+    "Haz clic en el campo de texto de tu aplicación, activa el micrófono del móvil y habla. AirMic escribe el texto reconocido en la ventana activa."
   ]
 };

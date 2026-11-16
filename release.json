@@ -2,7 +2,7 @@
   "version": "0.3",
   "androidVersion": "0.3.3",
   "androidVersionCode": 6,
-  "windowsPackageRevision": 4,
+  "windowsPackageRevision": 5,
   "windowsInstallScope": "all-users",
   "windowsDefaultDirectory": "C:\\Program Files\\AirMic",
   "windowsRuntime": ".NET 8.0.33 self-contained",
@@ -16,12 +16,12 @@
   },
   "files": {
     "AirMic-Setup.exe": {
-      "bytes": 54995781,
-      "sha256": "083ffb42b84a65397f9d3daf61f385dde302e2ea4af67ec9b717b1c26acf929d"
+      "bytes": 54997841,
+      "sha256": "8a42c103e27f769a01e01a6cddfd7fbb987f7733ca23f7c2097f3b1ccdca99a8"
     },
     "AirMic-Windows.zip": {
-      "bytes": 77735279,
-      "sha256": "2f2e8211e047207c99463cff65396383e7cab1616a2f4976288ecb22049415d9"
+      "bytes": 77736613,
+      "sha256": "e717be33cb6d70bc62e972e9963d443f0a1bd426a12fc90234e36f8694d3a858"
     },
     "AirMic.apk": {
       "bytes": 14097920,
