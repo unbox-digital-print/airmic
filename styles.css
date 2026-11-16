@@ -29,3 +29,4 @@ h1{font-size:clamp(46px,4.6vw,64px);letter-spacing:-3px}@media(max-width:700px){
 @media(max-width:700px){nav{gap:10px}.language-menu summary{padding:9px 8px}}
 @media(max-width:420px){nav .brand .dot{display:none}nav .brand{gap:8px;font-size:19px}nav .brand img{width:32px;height:32px}nav>.button{padding:9px 12px}}
 @media(max-width:420px){nav{gap:8px}nav>.button{padding:9px 8px;white-space:nowrap}nav .language-menu summary{gap:5px;font-size:11px}}
+.zip-alternative{margin-top:14px;font-size:12px}.language-menu[open] summary:after{content:none}.notice p{margin:12px 0 0}

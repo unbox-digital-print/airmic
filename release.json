@@ -1,9 +1,23 @@
 {
   "version": "0.3",
+  "windowsPackageRevision": 2,
+  "windowsRuntime": ".NET 8.0.33 self-contained",
+  "windowsSetupSigned": false,
+  "vbCable": {
+    "package": "VBCABLE_Driver_Pack46.zip",
+    "sha256": "bc44e8974191a5a2427d6c979e2dab08dbb09925f3f435dfa2f0ba3e45b6eb90",
+    "publisher": "VB-Audio / Vincent Burel",
+    "source": "https://vb-audio.com/Cable/",
+    "license": "https://vb-audio.com/Services/licensing.htm"
+  },
   "files": {
+    "AirMic-Setup.exe": {
+      "bytes": 54993147,
+      "sha256": "8071b220dc811de215aa3d623e9aa399b869b7ae94c94b0fdd16e1ec243074a1"
+    },
     "AirMic-Windows.zip": {
-      "bytes": 3756929,
-      "sha256": "337c08e22e3defd3a7298134852ae61c8d058f7ed94722a8c82118d7a4d0f637"
+      "bytes": 77734222,
+      "sha256": "6e3b703260cc65acb33ea5258e0aeaa357fdb85b876082ab58770cb19f38b744"
     },
     "AirMic.apk": {
       "bytes": 14092656,

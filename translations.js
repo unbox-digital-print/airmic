@@ -1,8 +1,16 @@
 'use strict';
-// German source -> English, French, Spanish. All translations are served locally.
+// German source -> English, French, Spanish.
 window.AIRMIC_TRANSLATIONS = {
-  "02 / WALKIE-TALKIE": ["02 / WALKIE-TALKIE", "02 / TALKIE-WALKIE", "02 / WALKIE-TALKIE"],
-  "Version 0.3 · Windows 11 · x64": ["Version 0.3 · Windows 11 · x64", "Version 0.3 · Windows 11 · x64", "Versión 0.3 · Windows 11 · x64"],
+  "02 / WALKIE-TALKIE": [
+    "02 / WALKIE-TALKIE",
+    "02 / TALKIE-WALKIE",
+    "02 / WALKIE-TALKIE"
+  ],
+  "Version 0.3 · Windows 11 · x64": [
+    "Version 0.3 · Windows 11 · x64",
+    "Version 0.3 · Windows 11 · x64",
+    "Versión 0.3 · Windows 11 · x64"
+  ],
   "AirMic – Dein Smartphone. Dein Mikrofon.": [
     "AirMic – Your smartphone. Your microphone.",
     "AirMic – Ton smartphone. Ton micro.",
@@ -797,5 +805,95 @@ window.AIRMIC_TRANSLATIONS = {
     "Subject to the applicable legal requirements, you have rights of access, rectification, erasure, restriction of processing, data portability and objection. You can also lodge a complaint with a data protection supervisory authority. For questions, use the contact address above.",
     "Sous réserve des conditions légales applicables, tu disposes des droits d’accès, de rectification, d’effacement, de limitation du traitement, de portabilité des données et d’opposition. Tu peux également déposer une réclamation auprès d’une autorité de contrôle de la protection des données. Pour toute question, utilise l’adresse de contact indiquée ci-dessus.",
     "Conforme a los requisitos legales aplicables, tienes derecho de acceso, rectificación, supresión, limitación del tratamiento, portabilidad de datos y oposición. También puedes presentar una reclamación ante una autoridad de protección de datos. Para cualquier consulta, usa la dirección de contacto indicada arriba."
+  ],
+  "Setup mit .NET-Laufzeit und unverändertem VB-CABLE-Paket. Kein separater Treiber-Download nötig.": [
+    "Setup includes the .NET runtime and original, unmodified VB-CABLE package. No separate driver download needed.",
+    "L’installation inclut le runtime .NET et le paquet original VB-CABLE non modifié. Aucun téléchargement séparé du pilote nécessaire.",
+    "El instalador incluye .NET y el paquete original de VB-CABLE sin modificar. No necesitas descargar el controlador por separado."
+  ],
+  "Windows-Setup herunterladen ↓": [
+    "Download Windows setup ↓",
+    "Télécharger l’installation Windows ↓",
+    "Descargar instalador de Windows ↓"
+  ],
+  "Ist VB-CABLE jetzt enthalten?": [
+    "Is VB-CABLE now included?",
+    "VB-CABLE est-il maintenant inclus ?",
+    "¿Está incluido ahora VB-CABLE?"
+  ],
+  "Ja. Windows-Setup und Windows-ZIP enthalten das unveränderte Standard-VB-CABLE-Paket von VB-Audio. Die EXE führt bei Bedarf zum Original-Installer; in der ZIP liegt er unter third-party/VB-CABLE/original. VB-CABLE ist Donationware. Unterstütze VB-Audio über die Herstellerseite oder erwirb dort eine Lizenz. Für Smartphone-Funk ist der Treiber nicht nötig.": [
+    "Yes. Both the Windows setup and ZIP include the unmodified standard VB-CABLE package by VB-Audio. The EXE offers the original driver installer when needed; the ZIP contains it under third-party/VB-CABLE/original. VB-CABLE is donationware. Support VB-Audio through its website or purchase a licence there. Smartphone radio needs no driver.",
+    "Oui. L’installateur Windows et le ZIP contiennent le paquet standard VB-CABLE non modifié de VB-Audio. L’EXE propose l’installateur original si nécessaire ; il se trouve dans third-party/VB-CABLE/original dans le ZIP. VB-CABLE est un donationware. Soutiens VB-Audio sur son site ou achète une licence. La radio entre smartphones n’a pas besoin de pilote.",
+    "Sí. El instalador y el ZIP de Windows incluyen el paquete estándar de VB-CABLE de VB-Audio sin modificar. El EXE ofrece el instalador original cuando hace falta; en el ZIP está en third-party/VB-CABLE/original. VB-CABLE es donationware. Apoya a VB-Audio en su web o compra una licencia. La radio entre smartphones no necesita controlador."
+  ],
+  "ZIP als Alternative herunterladen ↗": [
+    "Download ZIP instead ↗",
+    "Télécharger plutôt le ZIP ↗",
+    "Descargar ZIP como alternativa ↗"
+  ],
+  "VB-CABLE von VB-Audio ist enthalten.": [
+    "VB-CABLE by VB-Audio is included.",
+    "VB-CABLE de VB-Audio est inclus.",
+    "VB-CABLE de VB-Audio está incluido."
+  ],
+  "Wir liefern das unveränderte Standardpaket mit. Herkunft, Herstellerdateien und Lizenzhinweise bleiben erhalten.": [
+    "We include the unmodified standard package, retaining its origin, vendor files and licence notices.",
+    "Nous incluons le paquet standard non modifié en conservant son origine, les fichiers de l’éditeur et les avis de licence.",
+    "Incluimos el paquete estándar sin modificar y conservamos su origen, los archivos del fabricante y los avisos de licencia."
+  ],
+  "VB-CABLE ist Donationware. Beiträge sind willkommen. Unterstütze VB-Audio über die Herstellerseite oder erwirb dort eine Lizenz. Das ist unabhängig von einer Unterstützung für AirMic.": [
+    "VB-CABLE is donationware. Contributions are welcome. Support VB-Audio through its website or purchase a licence there. This is separate from supporting AirMic.",
+    "VB-CABLE est un donationware. Les contributions sont les bienvenues. Soutiens VB-Audio sur son site ou achète une licence. Ce soutien est distinct de celui à AirMic.",
+    "VB-CABLE es donationware. Las contribuciones son bienvenidas. Apoya a VB-Audio en su web o compra una licencia. Es independiente del apoyo a AirMic."
+  ],
+  "VB-Audio: Herkunft, Unterstützung & Lizenz ↗": [
+    "VB-Audio: source, support & licence ↗",
+    "VB-Audio : origine, soutien et licence ↗",
+    "VB-Audio: origen, apoyo y licencia ↗"
+  ],
+  "Bei bestimmten professionellen Verteilungen sind zusätzliche Lizenzen erforderlich. Es gelten die": [
+    "Certain professional deployments require additional licences. The applicable terms are the",
+    "Certains déploiements professionnels nécessitent des licences supplémentaires. Consulte les",
+    "Ciertos despliegues profesionales requieren licencias adicionales. Consulta las"
+  ],
+  "Herstellerbedingungen": [
+    "vendor’s terms",
+    "conditions de l’éditeur",
+    "condiciones del fabricante"
+  ],
+  "Hinweise zum mitgelieferten Paket ↗": [
+    "Bundled package notices ↗",
+    "Informations sur le paquet inclus ↗",
+    "Avisos del paquete incluido ↗"
+  ],
+  "AirMic-Setup.exe ausführen.": [
+    "Run AirMic-Setup.exe.",
+    "Lance AirMic-Setup.exe.",
+    "Ejecuta AirMic-Setup.exe."
+  ],
+  "APK auf Android installieren. Unter Windows die Setup-EXE starten und dem Assistenten folgen. Die .NET-Laufzeit ist bereits enthalten. Alternativ die Windows-ZIP vollständig entpacken.": [
+    "Install the APK on Android. On Windows, run the setup EXE and follow the wizard. The .NET runtime is already included. Alternatively, extract the entire Windows ZIP.",
+    "Installe l’APK sur Android. Sur Windows, lance l’EXE et suis l’assistant. Le runtime .NET est déjà inclus. Tu peux aussi extraire le ZIP Windows complet.",
+    "Instala el APK en Android. En Windows, ejecuta el EXE y sigue el asistente. .NET ya está incluido. También puedes extraer todo el ZIP de Windows."
+  ],
+  "VB-CABLE bei Bedarf einrichten.": [
+    "Set up VB-CABLE if needed.",
+    "Configure VB-CABLE si nécessaire.",
+    "Configura VB-CABLE si hace falta."
+  ],
+  "Fehlt der Treiber, bietet das Setup den unveränderten VB-Audio-Installer an. Bestätige dessen Administratorabfrage und folge dem Original-Installer. Danach Windows neu starten. Ein erkannter vorhandener Treiber wird nicht automatisch neu installiert.": [
+    "If the driver is missing, setup offers the unmodified VB-Audio installer. Approve its administrator prompt and follow the original installer. Then restart Windows. An existing detected driver is not automatically reinstalled.",
+    "Si le pilote manque, l’assistant propose l’installateur VB-Audio non modifié. Confirme sa demande de droits administrateur et suis l’installateur original. Redémarre ensuite Windows. Un pilote existant détecté n’est pas réinstallé automatiquement.",
+    "Si falta el controlador, el asistente ofrece el instalador de VB-Audio sin modificar. Confirma su solicitud de permisos de administrador y sigue el instalador original. Después reinicia Windows. Un controlador existente detectado no se reinstala automáticamente."
+  ],
+  "Die Setup-EXE ist derzeit nicht digital signiert. Der Original-VB-Audio-Installer behält seine Herstellersignatur.": [
+    "The setup EXE is currently unsigned. The original VB-Audio installer retains its vendor signature.",
+    "L’EXE AirMic n’est pas encore signé numériquement. L’installateur VB-Audio conserve sa signature d’origine.",
+    "El EXE de AirMic aún no tiene firma digital. El instalador original de VB-Audio conserva su firma del fabricante."
+  ],
+  "In der ZIP: third-party/VB-CABLE/original/VBCABLE_Setup_x64.exe als Administrator ausführen. Bei einer AirMic-Deinstallation bleibt der installierte Treiber erhalten, da andere Apps ihn ebenfalls verwenden können.": [
+    "In the ZIP: run third-party/VB-CABLE/original/VBCABLE_Setup_x64.exe as administrator. Uninstalling AirMic leaves the installed driver in place because other apps may also use it.",
+    "Dans le ZIP : lance third-party/VB-CABLE/original/VBCABLE_Setup_x64.exe en tant qu’administrateur. Désinstaller AirMic conserve le pilote installé, car d’autres applications peuvent l’utiliser.",
+    "En el ZIP: ejecuta third-party/VB-CABLE/original/VBCABLE_Setup_x64.exe como administrador. Desinstalar AirMic conserva el controlador instalado, ya que otras apps también pueden usarlo."
   ]
 };
