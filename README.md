@@ -28,3 +28,5 @@ Keine externen Schriften, Analytics, Mikrofonzugriffe oder Build-Abhängigkeiten
 Deutsch, Englisch, Französisch und Spanisch sind für Startseite, FAQs, Einrichtung, Download-Einstiege, Datenschutzerklärung und Impressum verfügbar. Texte stehen in `translations.js`, die Sprachwahl in `i18n.js`. Reihenfolge: `?lang=`, manuell gespeicherte Auswahl (`airmic-site-language`), unterstützte Browsersprache, Englisch. Links zu HTML-Unterseiten übernehmen die gewählte Sprache. Downloads bleiben unverändert.
 
 Setup und neuer Deinstaller bieten bei laufendem AirMic direktes Schließen, erneutes Prüfen oder Abbrechen an. Erzwungenes Beenden erfordert eine separate Bestätigung. Alte AppData-Installationen werden nicht automatisch verschoben oder gelöscht.
+
+PayPal-Unterstützungsbutton: lokal erstelltes SVG (217 × 60 px, Radius 9 px, Gelb #ffdd00 wie BMAC), zweizeilig „Donate with“ / unverändertes PayPal-Logo. Logoquelle: https://www.paypalobjects.com/webstatic/mktg/Logo/pp-logo-100px.png. Linkziel bleibt unverändert.
