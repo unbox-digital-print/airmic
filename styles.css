@@ -3,3 +3,29 @@
 @media(max-width:700px){.wrap{width:calc(100% - 36px)}nav{min-height:72px}.brand{font-size:20px}nav .links{display:none}nav>.button{margin-left:auto}.hero{grid-template-columns:1fr;gap:20px;padding:46px 0 55px;min-height:0}h1{font-size:57px}.lead{font-size:16px}.studio{min-height:360px;margin:0 10px 30px}.desktop{width:85%}.phone{width:140px;bottom:0;left:0}.trust{flex-wrap:wrap;gap:14px}.trust span{width:45%}section.content{padding:65px 0}.grid3,.preview-layout,.downloads,.faq-grid,.support{grid-template-columns:1fr}.grid3{gap:20px;margin-top:25px}.feature{padding-top:20px}.preview-layout{gap:25px}.card{padding:25px}.download-meta,.footer{flex-direction:column;gap:15px;align-items:flex-start}.support{padding:25px;gap:15px}.tabs{flex-wrap:wrap}.legal h1{font-size:39px}.demo-control{gap:14px}.button{gap:12px}.mock-caption{font-size:9px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition:none!important}}
 h1{font-size:clamp(46px,4.6vw,64px);letter-spacing:-3px}@media(max-width:700px){h1{font-size:43px;letter-spacing:-2px}}
+
+/* Windows-style title bar in the illustrative desktop preview. */
+.windowbar{padding:0 0 0 13px;min-height:36px;background:#19222b;color:#dfe2eb;font-size:11px}
+.window-app{display:flex;gap:8px;align-items:center;white-space:nowrap}
+.window-app img{border-radius:3px}
+.caption-controls{display:flex;align-items:center;align-self:stretch;margin-left:auto}
+.caption-controls>span{position:relative;display:block;width:36px;min-height:36px}
+.caption-minimize:before{content:'';position:absolute;width:9px;height:1px;background:#b9c3cc;left:14px;top:18px}
+.caption-maximize:before{content:'';position:absolute;width:9px;height:9px;border:1px solid #b9c3cc;left:13px;top:13px}
+.caption-close:before,.caption-close:after{content:'';position:absolute;width:12px;height:1px;background:#b9c3cc;left:12px;top:18px;transform:rotate(45deg)}
+.caption-close:after{transform:rotate(-45deg)}
+/* Same four-language switcher as the VPN Indicator site. */
+.language-menu{position:relative;margin:0;padding:0;border:0;flex-shrink:0}
+.language-menu summary{display:flex;align-items:center;gap:7px;border:1px solid var(--line);border-radius:8px;padding:9px 10px;font-size:12px;line-height:1.5;white-space:nowrap}
+.language-menu summary:after{content:none}
+.language-menu img{object-fit:cover;flex-shrink:0;border-radius:2px}
+.language-options{position:absolute;right:0;top:calc(100% + 9px);min-width:190px;padding:7px;border:1px solid var(--line);border-radius:10px;background:#181c22;box-shadow:0 16px 45px #0009;z-index:12}
+.language-options button{display:flex;align-items:center;gap:10px;width:100%;text-align:left;border:0;border-radius:6px;background:transparent;color:var(--text);padding:10px;font-size:13px}
+.language-options button span{margin-left:auto;font-size:10px;color:var(--muted)}
+.language-options button:hover,.language-options button[aria-pressed=true]{background:#00f2fe12;color:var(--cyan)}
+.language-toolbar{display:flex;justify-content:flex-end;padding-top:24px}
+.language-toolbar+.legal{padding-top:28px}
+@media(max-width:950px){nav .links{gap:16px}nav{gap:18px}}
+@media(max-width:700px){nav{gap:10px}.language-menu summary{padding:9px 8px}}
+@media(max-width:420px){nav .brand .dot{display:none}nav .brand{gap:8px;font-size:19px}nav .brand img{width:32px;height:32px}nav>.button{padding:9px 12px}}
+@media(max-width:420px){nav{gap:8px}nav>.button{padding:9px 8px;white-space:nowrap}nav .language-menu summary{gap:5px;font-size:11px}}

@@ -16,3 +16,7 @@ In support.json HTTPS-Adressen für paypal und/oder buyMeACoffee hinterlegen. Oh
 Windows 0.3: .NET 8 Desktop Runtime x64 und VB-CABLE separat installieren; beide sind nicht enthalten. Android 0.3: Android 8+, Paket com.unbox_digital_print.airmic.
 
 Keine externen Schriften, Analytics, Mikrofonzugriffe oder Build-Abhängigkeiten. Animation ist eine Demo. Vorhandene Video- und Google-Verifikationsdateien bleiben erhalten.
+
+## Sprachen
+
+Deutsch, Englisch, Französisch und Spanisch sind für Startseite, FAQs, Einrichtung, Download-Einstiege, Datenschutzerklärung und Impressum verfügbar. Texte stehen in `translations.js`, die Sprachwahl in `i18n.js`. Reihenfolge: `?lang=`, manuell gespeicherte Auswahl (`airmic-site-language`), unterstützte Browsersprache, Englisch. Links zu HTML-Unterseiten übernehmen die gewählte Sprache. Downloads bleiben unverändert.
