@@ -899,5 +899,60 @@ window.AIRMIC_TRANSLATIONS = {
     "Install the APK on Android. On Windows, launch the setup EXE and approve administrator access. Default path for all users: C:\\Program Files\\AirMic. The .NET runtime is included. Alternatively, extract the entire Windows ZIP.",
     "Installe l’APK sur Android. Sur Windows, lance l’EXE et confirme les droits administrateur. Dossier par défaut pour tous les utilisateurs : C:\\Program Files\\AirMic. Le runtime .NET est inclus. Tu peux aussi extraire le ZIP Windows complet.",
     "Instala el APK en Android. En Windows, inicia el EXE y confirma los permisos de administrador. Ruta predeterminada para todos los usuarios: C:\\Program Files\\AirMic. .NET está incluido. También puedes extraer todo el ZIP de Windows."
+  ],
+  "Echte Screenshots aus AirMic für Windows und Android": [
+    "Real screenshots of AirMic for Windows and Android",
+    "Vraies captures d’écran d’AirMic pour Windows et Android",
+    "Capturas reales de AirMic para Windows y Android"
+  ],
+  "Windows-Screenshot vergrößern": [
+    "Enlarge Windows screenshot",
+    "Agrandir la capture Windows",
+    "Ampliar captura de Windows"
+  ],
+  "Android-Screenshot vergrößern": [
+    "Enlarge Android screenshot",
+    "Agrandir la capture Android",
+    "Ampliar captura de Android"
+  ],
+  "Original-Screenshot von AirMic Studio für Windows mit DSP-Einstellungen": [
+    "Actual screenshot of AirMic Studio for Windows showing DSP settings",
+    "Capture réelle d’AirMic Studio pour Windows avec les réglages DSP",
+    "Captura real de AirMic Studio para Windows con ajustes DSP"
+  ],
+  "Original-Screenshot der AirMic-Android-App im Mikrofonmodus": [
+    "Actual screenshot of the AirMic Android app in microphone mode",
+    "Capture réelle de l’application Android AirMic en mode micro",
+    "Captura real de la app AirMic para Android en modo micrófono"
+  ],
+  "Echte App-Ansichten auf Deutsch · Zum Vergrößern anklicken": [
+    "Real app screens in German · Click to enlarge",
+    "Vraies interfaces en allemand · Cliquer pour agrandir",
+    "Pantallas reales en alemán · Haz clic para ampliar"
+  ],
+  "Android 0.3.1 · Windows 0.3 · Ohne Konto": [
+    "Android 0.3.1 · Windows 0.3 · No account",
+    "Android 0.3.1 · Windows 0.3 · Sans compte",
+    "Android 0.3.1 · Windows 0.3 · Sin cuenta"
+  ],
+  "Version 0.3.1 · Android 8 oder neuer": [
+    "Version 0.3.1 · Android 8 or later",
+    "Version 0.3.1 · Android 8 ou plus récent",
+    "Versión 0.3.1 · Android 8 o posterior"
+  ],
+  "Wie spare ich Akku bei Nichtbenutzung?": [
+    "How can I save battery when not using AirMic?",
+    "Comment économiser la batterie quand AirMic n’est pas utilisé ?",
+    "¿Cómo ahorro batería cuando no uso AirMic?"
+  ],
+  "Ab Android-Version 0.3.1 pausieren im stummen PC-Mikrofonmodus Aufnahme, DSP und Audioübertragung. CPU- und WLAN-Hochleistungssperren werden dafür freigegeben. Die Steuerverbindung bleibt für die Wiederaufnahme bestehen. Aktive Funkbereitschaft ist weiterhin echter Empfang und benötigt Energie. Wenn du AirMic nicht brauchst, beende den jeweiligen Modus über die Benachrichtigung.": [
+    "Starting with Android version 0.3.1, muted PC microphone mode pauses recording, DSP and audio transmission and releases the associated CPU and high-performance Wi-Fi locks. The control connection remains available for resuming. Active radio standby still receives audio and uses energy. When you do not need AirMic, stop the respective mode from its notification.",
+    "À partir de la version Android 0.3.1, le mode micro PC en sourdine suspend l’enregistrement, le DSP et la transmission audio, et libère les verrous CPU et Wi-Fi haute performance associés. La connexion de contrôle reste disponible pour reprendre. La veille radio active reste une véritable réception qui consomme de l’énergie. Si tu n’utilises pas AirMic, arrête le mode concerné depuis sa notification.",
+    "Desde la versión Android 0.3.1, el modo de micrófono de PC silenciado pausa la grabación, el DSP y la transmisión de audio y libera los bloqueos de CPU y Wi-Fi de alto rendimiento asociados. La conexión de control permanece disponible para reanudar. La radio en espera sigue recibiendo audio y consume energía. Si no necesitas AirMic, detén el modo correspondiente desde su notificación."
+  ],
+  "ANDROID · VERSION 0.3.1": [
+    "ANDROID · VERSION 0.3.1",
+    "ANDROID · VERSION 0.3.1",
+    "ANDROID · VERSIÓN 0.3.1"
   ]
 };

@@ -30,3 +30,11 @@ h1{font-size:clamp(46px,4.6vw,64px);letter-spacing:-3px}@media(max-width:700px){
 @media(max-width:420px){nav .brand .dot{display:none}nav .brand{gap:8px;font-size:19px}nav .brand img{width:32px;height:32px}nav>.button{padding:9px 12px}}
 @media(max-width:420px){nav{gap:8px}nav>.button{padding:9px 8px;white-space:nowrap}nav .language-menu summary{gap:5px;font-size:11px}}
 .zip-alternative{margin-top:14px;font-size:12px}.language-menu[open] summary:after{content:none}.notice p{margin:12px 0 0}
+
+/* Unmodified, genuine app captures instead of the illustrative phone/PC mockup. */
+.real-studio{min-height:470px;display:block}
+.real-desktop{position:absolute;left:0;top:35px;width:96%;border:1px solid #3a494b;border-radius:10px;overflow:hidden;box-shadow:0 20px 65px #0008;transform:rotate(-2deg)}
+.real-desktop img,.real-phone img{display:block;width:100%;height:auto}
+.real-phone{position:absolute;right:0;bottom:4px;width:29%;border:3px solid #34414b;border-radius:21px;overflow:hidden;box-shadow:0 20px 45px #0009;transform:rotate(4deg)}
+.real-caption{position:absolute;bottom:-35px;left:0;right:0;color:var(--muted);font-size:11px;letter-spacing:.3px;text-align:right}
+@media(max-width:700px){.real-studio{min-height:355px;margin:5px 0 40px}.real-desktop{top:25px;width:97%}.real-phone{width:30%;bottom:2px;border-radius:15px}.real-caption{bottom:-32px;font-size:10px;text-align:left}}
