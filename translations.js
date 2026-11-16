@@ -954,5 +954,15 @@ window.AIRMIC_TRANSLATIONS = {
     "ANDROID · VERSION 0.3.3",
     "ANDROID · VERSION 0.3.3",
     "ANDROID · VERSIÓN 0.3.3"
+  ],
+  "VB-CABLE fehlt nach Neuinstallation – was tun?": [
+    "VB-CABLE is missing after reinstalling – what should I do?",
+    "VB-CABLE manque après une réinstallation : que faire ?",
+    "VB-CABLE no aparece tras reinstalar: ¿qué hago?"
+  ],
+  "Nach dem Entfernen von VB-CABLE Windows zuerst neu starten. Dann den Original-VB-Audio-Installer aus dem AirMic-Startmenü öffnen, den Treiber installieren und erneut neu starten. Danach müssen CABLE Input (Wiedergabe) und CABLE Output (Aufnahme) verfügbar sein. Das AirMic-Diktat verarbeitet Smartphone-Audio direkt; für ein Mikrofon in Discord, Teams oder OBS ist dagegen CABLE Output nötig. AirMic selbst zu deinstallieren entfernt den gemeinsam nutzbaren Treiber nicht.": [
+    "After removing VB-CABLE, restart Windows first. Then open the original VB-Audio installer from the AirMic Start menu, install the driver and restart again. CABLE Input (playback) and CABLE Output (recording) should then be available. AirMic dictation processes smartphone audio directly; using it as a microphone in Discord, Teams or OBS requires CABLE Output. Uninstalling AirMic itself does not remove the shared driver.",
+    "Après avoir supprimé VB-CABLE, redémarre d’abord Windows. Ouvre ensuite l’installateur original VB-Audio depuis le menu Démarrer AirMic, installe le pilote et redémarre à nouveau. CABLE Input (lecture) et CABLE Output (enregistrement) doivent alors être disponibles. La dictée AirMic traite directement le son du smartphone ; pour l’utiliser comme micro dans Discord, Teams ou OBS, CABLE Output est nécessaire. Désinstaller AirMic ne supprime pas le pilote partagé.",
+    "Tras eliminar VB-CABLE, reinicia primero Windows. Después abre el instalador original de VB-Audio desde el menú Inicio de AirMic, instala el controlador y vuelve a reiniciar. Deben aparecer CABLE Input (reproducción) y CABLE Output (grabación). El dictado de AirMic procesa directamente el audio del móvil; para usarlo como micrófono en Discord, Teams u OBS hace falta CABLE Output. Desinstalar AirMic no elimina el controlador compartido."
   ]
 };
