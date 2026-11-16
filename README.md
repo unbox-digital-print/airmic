@@ -1,22 +1,18 @@
-# AirMic – Website
+# AirMic website
 
-Dies ist die öffentliche Website von **AirMic**.
+Statische Seite: https://unbox-digital-printing.github.io/airmic/
 
-AirMic ist eine Android-App zur Nutzung des Smartphones als kabelloses PC-Mikrofon (über WLAN und USB) sowie als lokale Intercom- und Walkie-Talkie-Lösung im Heimnetzwerk.
+Fester Windows-Einstieg für den späteren APK-Link:
+https://unbox-digital-printing.github.io/airmic/download/windows/
 
-## Website
+Android: https://unbox-digital-printing.github.io/airmic/download/android/
 
-Die Website enthält:
+Die Einstiegseiten enthalten einen Downloadbutton und Installationshinweise. Direkte Dateien: downloads/AirMic-Windows.zip und downloads/AirMic.apk. Beim Update die Dateinamen beibehalten, release.json und downloads/SHA256SUMS.txt aktualisieren.
 
-- eine Kurzvorstellung von AirMic
-- die Datenschutzerklärung für die App.
+## Spenden
+In support.json HTTPS-Adressen für paypal und/oder buyMeACoffee hinterlegen. Ohne gültige Adresse bleiben die Buttons deaktiviert. Nur offizielle PayPal- und Buy-Me-a-Coffee-Domains werden akzeptiert. Keine eingebetteten Zahlungswidgets.
 
-## Datenschutz
+## Voraussetzungen
+Windows 0.3: .NET 8 Desktop Runtime x64 und VB-CABLE separat installieren; beide sind nicht enthalten. Android 0.3: Android 8+, Paket com.unbox_digital_print.airmic.
 
-Die Datenschutzerklärung ist unter folgendem Pfad verfügbar:
-
-[[Datenschutzerklärung]](https://unbox-digital-printing.github.io/airmic/privacy.html)
-
-## Hinweis
-
-Dieses Repository enthält ausschließlich die statischen Dateien der öffentlichen Website. Der Quellcode der AirMic-Android-App und Windows-Desktop-Anwendung ist nicht Bestandteil dieses Repositories.
+Keine externen Schriften, Analytics, Mikrofonzugriffe oder Build-Abhängigkeiten. Animation ist eine Demo. Vorhandene Video- und Google-Verifikationsdateien bleiben erhalten.

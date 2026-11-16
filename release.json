@@ -1,0 +1,13 @@
+{
+  "version": "0.3",
+  "files": {
+    "AirMic-Windows.zip": {
+      "bytes": 3756929,
+      "sha256": "337c08e22e3defd3a7298134852ae61c8d058f7ed94722a8c82118d7a4d0f637"
+    },
+    "AirMic.apk": {
+      "bytes": 14092656,
+      "sha256": "3bc17f22b6b05540356ee590f08aeb08ca5a4a253b16e8c8e2516cec60a3f3a7"
+    }
+  }
+}
