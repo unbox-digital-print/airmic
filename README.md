@@ -1,11 +1,11 @@
 # AirMic website
 
-Statische Seite: https://unbox-digital-printing.github.io/airmic/
+Statische Seite: https://unbox-digital-print.github.io/airmic/
 
 Fester Windows-Einstieg für den späteren APK-Link:
-https://unbox-digital-printing.github.io/airmic/download/windows/
+https://unbox-digital-print.github.io/airmic/download/windows/
 
-Android: https://unbox-digital-printing.github.io/airmic/download/android/
+Android: https://unbox-digital-print.github.io/airmic/download/android/
 
 Die Einstiegseiten enthalten einen Downloadbutton und Installationshinweise. Windows bietet primär `downloads/AirMic-Setup.exe`, alternativ `downloads/AirMic-Windows.zip`. Android: `downloads/AirMic.apk`. Beim Update Dateinamen beibehalten, release.json und downloads/SHA256SUMS.txt aktualisieren.
 
